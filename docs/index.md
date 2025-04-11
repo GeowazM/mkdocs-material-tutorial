@@ -1,8 +1,8 @@
-# Welcome to MkDocs
+# Wilkommen zu Modul GIS 1
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Für mehr Informationen siehe [Zertifikatsstudium Geodatenmanager/-in Tübingen](https://www.geodatenmanagerin-tuebingen.de/weiterbildung-geodatenmanager-in/).
 
-## Commands
+## Komanntos
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
@@ -11,10 +11,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Lasst uns beginnen
 
 
 I like to drink :beers: after playing :soccer:
