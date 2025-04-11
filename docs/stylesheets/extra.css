@@ -1,0 +1,30 @@
+[data-md-color-scheme="ut_dark"] {
+    --md-primary-fg-color:        #32414B;
+    --md-primary-fg-color--light: #B4A069;
+    --md-primary-fg-color--dark:  #A51E37;
+    --md-accent-fg-color:         #A51E37;
+    --md-accent-fg-color--transparent: #32414b2a;
+  } 
+
+[data-md-color-scheme="ut_ligth"] {
+    --md-primary-fg-color:        #B4A069;
+    --md-primary-fg-color--light: #32414B;
+    --md-primary-fg-color--dark:  #A51E37;
+  }
+
+  [data-md-color-scheme="custom"] {
+    /* Primary color */
+    --md-primary-fg-color: #A51E37; /* Your #A51E37 */
+    --md-primary-fg-color--light: #D86A80; /* Lighter shade for light mode */
+    --md-primary-fg-color--dark: #720B24; /* Darker shade for dark mode */
+  
+    /* Accent color */
+    --md-accent-fg-color: #32414B; /* Your #32414B */
+    --md-accent-fg-color--light: #606E78; /* Lighter shade for light mode */
+    --md-accent-fg-color--dark: #121F28; /* Darker shade for dark mode */
+  
+    /* Neutral color (e.g., for text, backgrounds) */
+    --md-default-fg-color: #B4A069; /* Your #B4A069 */
+    --md-default-fg-color--light: #E6D29B; /* Lighter shade for light mode */
+    --md-default-fg-color--dark: #816D3B; /* Darker shade for dark mode */
+  }
