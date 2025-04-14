@@ -2,7 +2,9 @@
 
 Zur Einführung untersuchen Sie ein vorbereitetes Projekt, das in ähnlicher Form von ESRI online zur Verfügung gestellt wird. Statt Wellington in Neuseeland handelt es sich um ein Projekt zu Tübingen, welches Sie aus ILIAS heruntergeladen haben.
 
-Entpacken Sie Einfuehrung_ArcGIS_Pro.zip in ein Verzeichnis für dieses Modul, z.b. GIS1.
+!!! note "Ordner entzippen"
+
+    Entpacken Sie *Einfuehrung_ArcGIS_Pro.zip* in ein Verzeichnis für dieses Modul, z.b. GIS1.
 
 Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und Sonderzeichen zu verwenden.
 
@@ -14,7 +16,6 @@ Für Übungen im weiteren Verlauf der Weiterbildung empfiehlt es sich, für jede
 
 ![testing_middle](assets/uebung_1/teil_2_img5.png){ align=middle }
 
-
 ## Überblick
 
 ArcGIS Pro ist eine menübandbasierte Anwendung. Viele Befehle sind auf dem Menüband am oberen Rand des ArcGIS Pro-Fensters verfügbar. Komplexere oder spezielle Funktionen befinden sich in Bereichen (verankerbare Fenster), die bei Bedarf geöffnet werden können.
@@ -24,20 +25,21 @@ ArcGIS Pro ermöglicht nach Bedarf die Speicherung und Verwendung mehrerer Eleme
 In diesem Lernprogramm erkunden Sie die Hauptkomponenten der ArcGIS Pro-Benutzeroberfläche – das Menüband, die Ansichten und Bereiche – und deren Interaktionen am Beispiel eines Projektes mit 2D- und 3D-Karten von Tübingen.
 
 
+!!! note "ArcGIS Pro starten" 
 
-Starten Sie ArcGIS Pro. Geben Sie, falls notwendig, auf dem Bildschirm Anmelden bei ArcGIS Ihren Benutzernamen und ein Kennwort ein, und klicken Sie dann auf Anmelden.
+    Starten Sie ArcGIS Pro. Geben Sie, falls notwendig, auf dem Bildschirm Anmelden bei ArcGIS Ihren Benutzernamen und ein Kennwort ein, und klicken Sie dann auf Anmelden.
 
 Systemvorlagen für die Erstellung von Projekten werden in der Mitte der Startseite angezeigt. Unterhalb der Systemvorlagen können Sie die Projekterstellung aus eigenen Vorlagen starten. Auf der linken Seite können Sie ein gespeichertes Projekt öffnen. (Es kann sein, dass bei Ihnen keine zuletzt verwendeten Vorlagen oder Projekte vorhanden sind.)
 
-Klicken Sie in der Liste Letzte Projekte auf  Anderes Projekt öffnen .
+!!! note "Projekt öffnen"
+
+    Klicken Sie in der Liste Letzte Projekte auf *Anderes Projekt* öffnen .
 
 Das Dialogfeld Projekt öffnen wird angezeigt.
 
-Hinweis:
+!!! tip "Alternatives öffnen"
 
-
-
-Wenn ein anderes Projekt bereits geöffnet ist, klicken Sie auf dem Menüband auf die Registerkarte Projekt. Klicken Sie links in der Liste der Menüelemente auf Öffnen. Klicken Sie auf der Seite Öffnen auf Portal und dann unten auf der Seite auf Ein anderes Projekt öffnen.
+    Wenn ein anderes Projekt bereits geöffnet ist, klicken Sie auf dem Menüband auf die Registerkarte Projekt. Klicken Sie links in der Liste der Menüelemente auf Öffnen. Klicken Sie auf der Seite Öffnen auf Portal und dann unten auf der Seite auf Ein anderes Projekt öffnen.
 
 ArcGIS Pro favorisiert Online Projekte, die Suche nach Projekten auf der Festplatte finden Sie unter Computer etwas weiter unten in der Auswahl. 
 
@@ -63,23 +65,15 @@ Verwenden Sie zunächst die Werkzeuge in der Gruppe Navigieren. Mit dem Werkzeug
 
 Positionieren Sie die Maus auf dem „Erkunden“ Werkzeug ohne zu klicken. Dadurch erhalten Sie eine Kurzinfo
 
-
-
-
-
-
-
-
-
 Ziehen Sie (mit der linken Maustaste) den Karteninhalt an eine andere Position, während das Werkzeug Erkunden aktiviert ist.
 
 Wenn Sie plötzlich die Karte nicht mehr sehen, finden Sie möglicherweise nicht mehr zurück. Mithilfe eines Lesezeichens können Sie zu Ihrem Ausgangspunkt zurückkehren.
 
 
 
-Tipp:
+!!! tip "Q-Taste drücken"
 
-Sie können auf der Karte navigieren, indem Sie die Taste Q auf der Tastatur drücken und den Zeiger in die Richtung bewegen, in die Sie sich bewegen möchten. Drücken Sie Q+UMSCHALT, um die Roam-Geschwindigkeit zu reduzieren, drücken Sie Q+STRG, um die Geschwindigkeit zu erhöhen.
+    Sie können auf der Karte navigieren, indem Sie die Taste Q auf der Tastatur drücken und den Zeiger in die Richtung bewegen, in die Sie sich bewegen möchten. Drücken Sie Q+UMSCHALT, um die Roam-Geschwindigkeit zu reduzieren, drücken Sie Q+STRG, um die Geschwindigkeit zu erhöhen.
 
 
 
