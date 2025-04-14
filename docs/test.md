@@ -1,5 +1,5 @@
 
-# Übung M1 Einführung ArcGIS_Pro
+# Übung M1 Einführung ArcGIS Pro
 ## Zertifikatsstudium Geodatenmanager/-in
 
 ### CAS Geographische Informationssysteme
@@ -17,35 +17,40 @@
 
 ---
 
-Collapsible callout:
-
 ??? info "Inhaltsverzeichnis"
 
     ## Inhaltsverzeichnis
     1. Vorbemerkungen und Vorbereitungen
+
        1.1 Datenrecherche
        1.2 Kopieren der Übungsdaten
        1.3 Hilfe
        1.4 Terminologie
+
     2. Teil 1: Einführung in ArcGIS Pro
+
        2.1 Überblick
        2.2 Verwenden der Werkzeuge auf dem Menüband
        2.3 Öffnen und Verankern von Bereichen
        2.4 Erkunden von Ansichten
        2.5 Arbeiten mit kontextbezogenen Registerkarten
        2.6 Wechsel zum dunklen Design (optional)
+
     3. Teil 2: Projekterstellung mit ArcGIS Pro
        3.1 Arbeiten mit Vorlage
        3.2 Oberfläche
           3.2.1 Arbeiten mit dem Menüband
        3.3 Arbeiten ohne Vorlage (optional)
+
     4. Karten, Daten und Layer
        4.1 WMS hinzufügen
+
     5. Daten organisieren mit Katalog
        5.1 Analysieren der Daten im Katalog
        5.2 Ordnerverbindungen
        5.3 Eigenschaften von Dateien
        5.4 Metadaten
+
     6. Arbeiten in ArcGIS Pro
        6.1 Datei- und Projektformate
        6.2 Daten hinzufügen in ArcGIS Pro
@@ -59,45 +64,50 @@ Collapsible callout:
        6.10 Messen
        6.11 Darstellen von Daten am Bildschirm
        6.12 Layereigenschaften
+
           6.12.1 Allgemein
           6.12.2 Quelle
           6.12.3 Anzeige
+
        6.13 Symbole und Symbolisierung
+
           6.13.1 Symbolauswahl (Einzelsymbol)
           6.13.2 Symbolisierung (Thematische Karte)
+
        6.14 Beschriftungen
+
     7. Sonstige Darstellungsoptionen
+
        7.1 Ausblenden
        7.2 to be continued…
+
     8. Fazit
 
 ---
 
-Collapsible callout:
-
 ??? info "Abbildungsverzeichnis"
 
-- Abbildung 1: Beispiel Ordnerstruktur
-- Abbildung 2: Menüband
-- Abbildung 3: Katalog und Inhaltsverzeichnis
-- Abbildung 4: Katalog und Inhalt stapeln
-- Abbildung 5: Verankerungszielpfeile
-- Abbildung 6: 3D Ansicht Institut
-- Abbildung 7: Layer ausgewählt
-- Abbildung 8: Karte ausgewählt
-- Abbildung 9: Sachdatentabelle
-- Abbildung 10: Primäre Symbolisierung
-- Abbildung 11: Symbolauswahl
-- Abbildung 12: Starten von ArcGIS Pro
-- Abbildung 13: Projekt anlegen
-- Abbildung 14: Projekt anlegen
-- Abbildung 15: Oberfläche ArcGIS Pro
-- Abbildung 16: Menüband
-- Abbildung 17: Registerkarten "Feature Layer"
-- Abbildung 18: Koordinatensystem einstellen
-- Abbildung 19: Grundkarte von ESRI einfügen
-- Abbildung 20: Navigieren mit der Maus
-- Abbildung 21: Symbolisierungsmöglichkeiten
+    - Abbildung 1: Beispiel Ordnerstruktur
+    - Abbildung 2: Menüband
+    - Abbildung 3: Katalog und Inhaltsverzeichnis
+    - Abbildung 4: Katalog und Inhalt stapeln
+    - Abbildung 5: Verankerungszielpfeile
+    - Abbildung 6: 3D Ansicht Institut
+    - Abbildung 7: Layer ausgewählt
+    - Abbildung 8: Karte ausgewählt
+    - Abbildung 9: Sachdatentabelle
+    - Abbildung 10: Primäre Symbolisierung
+    - Abbildung 11: Symbolauswahl
+    - Abbildung 12: Starten von ArcGIS Pro
+    - Abbildung 13: Projekt anlegen
+    - Abbildung 14: Projekt anlegen
+    - Abbildung 15: Oberfläche ArcGIS Pro
+    - Abbildung 16: Menüband
+    - Abbildung 17: Registerkarten "Feature Layer"
+    - Abbildung 18: Koordinatensystem einstellen
+    - Abbildung 19: Grundkarte von ESRI einfügen
+    - Abbildung 20: Navigieren mit der Maus
+    - Abbildung 21: Symbolisierungsmöglichkeiten
 
 ---
 
