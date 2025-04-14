@@ -12,8 +12,6 @@ Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und
 
 Grundsätzlich empfiehlt es sich für jedes Modul des Geodatenmanager/-in einen Ordner inklusive Unterordnern anzulegen. Für diese erste Übung ist das noch nicht notwendig.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align-items="center" allowfullscreen></iframe>
-
 ## Überblick
 
 **Geographische Informationssysteme (GIS)** sind komplexe Software mit einer unüberschaubaren Anzahl an Algorithmen. Um Übersichtlichkeit & Komplexität miteinander zu verbinden, ist GIS-Software sehr verschachtelt aufgebaut. Viele Befehle sind auf dem Menüband am oberen Rand des ArcGIS Pro-Fensters verfügbar. Komplexere oder spezielle Funktionen befinden sich in Bereichen (verankerbare Fenster), die bei Bedarf geöffnet werden können.
