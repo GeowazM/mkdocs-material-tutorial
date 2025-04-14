@@ -17,6 +17,10 @@
 
 ---
 
+Collapsible callout:
+
+??? info "Inhaltsverzeichnis"
+
 ## Inhaltsverzeichnis
 1. Vorbemerkungen und Vorbereitungen
    1.1 Datenrecherche
@@ -69,7 +73,10 @@
 
 ---
 
-## Abbildungsverzeichnis
+Collapsible callout:
+
+??? info "Abbildungsverzeichnis"
+
 - Abbildung 1: Beispiel Ordnerstruktur
 - Abbildung 2: Menüband
 - Abbildung 3: Katalog und Inhaltsverzeichnis
@@ -122,6 +129,7 @@ Informationen zu dieser Übung finden Sie in den Präsentationsfolien im ILIAS:
 
 ## Vorbemerkungen und Vorbereitungen
 Die Zertifikatslinie „CAS Geographische Informationssysteme“ behandelt in den ersten beiden Kursmodulen den Umgang mit räumlichen Daten anhand der Software ArcGIS Pro von ESRI. In dieser Übung werden folgende Inhalte vertieft:
+
 - Arbeit mit Esri ArcGIS Pro
 - Umgang mit Daten
 - Kennenlernen der Programmoberfläche
@@ -160,4 +168,4 @@ Viele bekannte Begriffe aus ArcMap sind nicht mehr gültig und neue sind hinzu g
 ---
 
 ## Teil 1: Einführung in ArcGIS Pro
-Zur Einführung untersuchen Sie ein vorbereitetes Projekt, das in ähnlicher Form von ESRI online zur Verfügung gestellt wird. Statt Wellington in Neuseeland handelt es sich um ein Projekt zu Tübingen, welches Sie aus ILIAS heruntergeladen haben. Entpacken Sie Einfuehrung_ArcGIS_Pro.zip in ein Verzeichnis für dieses Modul, z.b. GIS1. Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und Sonderzeichen zu verwenden. Für Übungen im weiteren Verlauf der Weiterbildung empfiehlt es sich, für jedes Modul einen Ordner und darin Unterordner für jeweilige Übungen anzulegen. Siehe 1
+Zur Einführung untersuchen Sie ein vorbereitetes Projekt, das in ähnlicher Form von ESRI online zur Verfügung gestellt wird. Statt Wellington in Neuseeland handelt es sich um ein Projekt zu Tübingen, welches Sie aus ILIAS heruntergeladen haben. Entpacken Sie Einfuehrung_ArcGIS_Pro.zip in ein Verzeichnis für dieses Modul, z.b. GIS1. Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und Sonderzeichen zu verwenden. Für Übungen im weiteren Verlauf der Weiterbildung empfiehlt es sich, für jedes Modul einen Ordner und darin Unterordner für jeweilige Übungen anzulegen. Siehe 1.2
