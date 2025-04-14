@@ -6,8 +6,8 @@ theme:
   font:
     text: Roboto
     code: Red Hat Mono
-  logo: assets/UT_WBMW_Rot_RGB_v2.svg
-  favicon: assets/ut_palme.png
+  logo: assets/cd/UT_WBMW_Rot_RGB_v2.svg
+  favicon: assets/cd/ut_palme.png
   features:
     - navigation.footer
     - navigation.instant

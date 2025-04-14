@@ -1,4 +1,4 @@
-# Teil 1: Einführung in ArcGIS Pro
+# 1. Einführung
 
 Zur Einführung untersuchen Sie ein vorbereitetes Projekt, das in ähnlicher Form von ESRI online zur Verfügung gestellt wird. Statt Wellington in Neuseeland handelt es sich um ein Projekt zu Tübingen, welches Sie aus ILIAS heruntergeladen haben.
 

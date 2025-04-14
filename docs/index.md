@@ -20,59 +20,90 @@
 
 ??? abstract "Inhaltsverzeichnis"
 
-    ## Inhaltsverzeichnis
     1. Vorbemerkungen und Vorbereitungen
 
        1.1 Datenrecherche
+
        1.2 Kopieren der Übungsdaten
+
        1.3 Hilfe
+
        1.4 Terminologie
 
     2. Teil 1: Einführung in ArcGIS Pro
 
        2.1 Überblick
+
        2.2 Verwenden der Werkzeuge auf dem Menüband
+
        2.3 Öffnen und Verankern von Bereichen
+
        2.4 Erkunden von Ansichten
+
        2.5 Arbeiten mit kontextbezogenen Registerkarten
+
        2.6 Wechsel zum dunklen Design (optional)
 
     3. Teil 2: Projekterstellung mit ArcGIS Pro
+
        3.1 Arbeiten mit Vorlage
+
        3.2 Oberfläche
+    
           3.2.1 Arbeiten mit dem Menüband
+
        3.3 Arbeiten ohne Vorlage (optional)
 
     4. Karten, Daten und Layer
+
        4.1 WMS hinzufügen
 
     5. Daten organisieren mit Katalog
+
        5.1 Analysieren der Daten im Katalog
+
        5.2 Ordnerverbindungen
+
        5.3 Eigenschaften von Dateien
+
        5.4 Metadaten
 
     6. Arbeiten in ArcGIS Pro
+
        6.1 Datei- und Projektformate
+
        6.2 Daten hinzufügen in ArcGIS Pro
+
        6.3 Erstellen eines Kartendokuments *.aprx
+
        6.4 Koordinatensystem einstellen
+
        6.5 Eigenschaften der Karte
+
        6.6 Hinzufügen einer Grundkarte (Basemap)
+
        6.7 Statusleiste
+
        6.8 Navigieren
+
        6.9 Tastenkombinationen
+
        6.10 Messen
+
        6.11 Darstellen von Daten am Bildschirm
+
        6.12 Layereigenschaften
 
           6.12.1 Allgemein
+
           6.12.2 Quelle
+
           6.12.3 Anzeige
 
        6.13 Symbole und Symbolisierung
 
           6.13.1 Symbolauswahl (Einzelsymbol)
+
           6.13.2 Symbolisierung (Thematische Karte)
 
        6.14 Beschriftungen
@@ -80,6 +111,7 @@
     7. Sonstige Darstellungsoptionen
 
        7.1 Ausblenden
+
        7.2 to be continued…
 
     8. Fazit

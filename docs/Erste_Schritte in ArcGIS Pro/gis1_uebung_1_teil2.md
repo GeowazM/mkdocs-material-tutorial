@@ -1,4 +1,4 @@
-# Teil 2: Projekterstellung mit ArcGIS Pro
+# 2. Projekterstellung
 
 ArcGIS Pro dient der Erfassung, Analyse und Präsentation (Ausgabe) von Geodaten. Die Möglichkeiten von ArcGIS Pro können im Rahmen dieser Weiterbildung nicht vollumfänglich erlernt werden. Zur Vertiefung bietet ESRI eine Reihe von Kursen an, kostenfreie und kostenpflichtige. 
 
