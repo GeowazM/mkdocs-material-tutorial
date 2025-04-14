@@ -1,56 +1,60 @@
 # 1. Einführung
 
-Zur Einführung untersuchen Sie ein vorbereitetes Projekt, das in ähnlicher Form von ESRI online zur Verfügung gestellt wird. Statt Wellington in Neuseeland handelt es sich um ein Projekt zu Tübingen, welches Sie aus ILIAS heruntergeladen haben.
+Zur Einführung öffnen Sie ein vorbereitetes Projekt, dass Geodaten zu Tübingen beinhaltet. Das ArcGIS Pro Projekt und die dazugehörigen Geodaten können Sie via ILAS herunterladen.
 
-!!! note "Ordner entzippen"
+[Hier gehts zu ILIAS](https://lms-ubinfo.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=&ref_id=1){ .md-button }
+
+!!! note "Aufgabe 1 - Ordner entzippen"
 
     Entpacken Sie *Einfuehrung_ArcGIS_Pro.zip* in ein Verzeichnis für dieses Modul, z.b. GIS1.
 
 Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und Sonderzeichen zu verwenden.
 
-Für Übungen im weiteren Verlauf der Weiterbildung empfiehlt es sich, für jedes Modul einen Ordner und darin Unterordner für jeweilige Übungen anzulegen. Siehe 1.2
+Grundsätzlich empfiehlt es sich für jedes Modul des Geodatenmanager/-in einen Ordner inklusive Unterordnern anzulegen. Für diese erste Übung ist das noch nicht notwendig.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align-items="center" allowfullscreen></iframe>
 
 ## Überblick
 
-ArcGIS Pro ist eine menübandbasierte Anwendung. Viele Befehle sind auf dem Menüband am oberen Rand des ArcGIS Pro-Fensters verfügbar. Komplexere oder spezielle Funktionen befinden sich in Bereichen (verankerbare Fenster), die bei Bedarf geöffnet werden können.
+**Geographische Informationssysteme (GIS)** sind komplexe Software mit einer unüberschaubaren Anzahl an Algorithmen. Um Übersichtlichkeit & Komplexität miteinander zu verbinden, ist GIS-Software sehr verschachtelt aufgebaut. Viele Befehle sind auf dem Menüband am oberen Rand des ArcGIS Pro-Fensters verfügbar. Komplexere oder spezielle Funktionen befinden sich in Bereichen (verankerbare Fenster), die bei Bedarf geöffnet werden können.
 
-ArcGIS Pro ermöglicht nach Bedarf die Speicherung und Verwendung mehrerer Elemente wie Karten, Layouts, Tabellen und Diagramme in einem einzigen Projekt. Die Anwendung reagiert außerdem kontextabhängig auf Ihre Arbeit. Die Registerkarten auf dem Menüband ändern sich je nach dem Typ des Elements, mit dem Sie arbeiten.
+**ArcGIS Pro** ermöglicht nach Bedarf die Speicherung und Verwendung mehrerer Elemente wie Karten, Layouts, Tabellen und Diagramme in einem einzigen Projekt. Die Anwendung reagiert außerdem kontextabhängig auf Ihre Arbeit. Die Registerkarten auf dem Menüband ändern sich je nach dem Typ des Elements, mit dem Sie arbeiten.
 
 In diesem Lernprogramm erkunden Sie die Hauptkomponenten der ArcGIS Pro-Benutzeroberfläche – das Menüband, die Ansichten und Bereiche – und deren Interaktionen am Beispiel eines Projektes mit 2D- und 3D-Karten von Tübingen.
 
 
-!!! note "ArcGIS Pro starten" 
+!!! note "Aufgabe 2 - ArcGIS Pro starten" 
 
     Starten Sie ArcGIS Pro. Geben Sie, falls notwendig, auf dem Bildschirm Anmelden bei ArcGIS Ihren Benutzernamen und ein Kennwort ein, und klicken Sie dann auf Anmelden.
 
 Systemvorlagen für die Erstellung von Projekten werden in der Mitte der Startseite angezeigt. Unterhalb der Systemvorlagen können Sie die Projekterstellung aus eigenen Vorlagen starten. Auf der linken Seite können Sie ein gespeichertes Projekt öffnen. (Es kann sein, dass bei Ihnen keine zuletzt verwendeten Vorlagen oder Projekte vorhanden sind.)
 
-!!! note "Projekt öffnen"
+!!! note "Aufgabe 3 - Projekt öffnen"
 
     Klicken Sie in der Liste Letzte Projekte auf *Anderes Projekt* öffnen .
 
 Das Dialogfeld Projekt öffnen wird angezeigt.
 
-!!! tip "Alternatives öffnen"
+!!! tip "Aufgabe 3 Optional - Alternatives öffnen"
 
     Wenn ein anderes Projekt bereits geöffnet ist, klicken Sie auf dem Menüband auf die Registerkarte Projekt. Klicken Sie links in der Liste der Menüelemente auf Öffnen. Klicken Sie auf der Seite Öffnen auf Portal und dann unten auf der Seite auf Ein anderes Projekt öffnen.
 
-ArcGIS Pro favorisiert Online Projekte, die Suche nach Projekten auf der Festplatte finden Sie unter Computer etwas weiter unten in der Auswahl. 
-
-Navigieren Sie zum Ordner in dem sich die entpackten Daten befinden.
+ArcGIS Pro favorisiert Online Projekte (in der Cloud liegen). Die Suche nach lokalen Projekten (auf der Festplatte) finden Sie unter Computer etwas weiter unten in der Auswahl. 
 
 
+!!! note "Karte öffnen"
 
-Klicken Sie auf Tuebingen.aprx, um das Projektpaket auszuwähen
-
-Klicken Sie auf OK.
+    1. Navigieren Sie zum Ordner in dem sich die entpackten Daten befinden 
+    2. Klicken Sie auf Tuebingen.aprx, um das Projektpaket auszuwähen
+    3. Klicken Sie auf OK.
 
 Wenn das Projekt geöffnet wird, wird eine Karte des Landkreises Tübingen, angezeigt. Das Fenster mit der Karte ist eine Kartenansicht. Die farbige Registerkarte oben in der Kartenansicht weist darauf hin, dass die Ansicht aktiv ist. Der Name der Ansicht lautet "Stadt Tübingen „.
 
-Im Projekt sind zwei weitere Ansichten vorhanden: die Karte "Stadt Tübingen" , und die lokale Szene "Tübingen_3D" ![3D_Szene](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_1/img17.png){ align=rigth }
-.
+Im Projekt sind zwei weitere Ansichten vorhanden: 
+
+- die Karte "Stadt Tübingen" ![3D_Szene](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_1/img16.png) 
+
+- und die lokale Szene "Tübingen_3D" ![3D_Szene](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_1/img17.png).
 
 ## Verwenden der Werkzeuge auf dem Menüband
 
