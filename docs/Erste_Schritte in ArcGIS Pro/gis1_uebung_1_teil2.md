@@ -13,7 +13,7 @@ Nach der Installation liegt auf Ihrem Desktop ein Icon mit dem Symbol oder Sie s
 ArcGIS Pro erfordert beim ersten Start eine Anmeldung auf Ihrem ESRI Konto. Danach erscheint die Oberfläche mit der Möglichkeit zuletzt verwendete Projekt zu öffnen oder ein neues Projekt mit oder ohne einer Vorlage zu öffnen. 
 
 
-![Placeholder](uebung_1/teil2_img5.png){ align=center }
+![Placeholder](assets/uebung_1/teil_2_img5.png){ align=left }
 
 ## Arbeiten mit Vorlage
 

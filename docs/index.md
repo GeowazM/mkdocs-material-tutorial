@@ -18,7 +18,7 @@
 
 ---
 
-!!! abstract "Inhaltsverzeichnis"
+??? abstract "Inhaltsverzeichnis"
 
     ## Inhaltsverzeichnis
     1. Vorbemerkungen und Vorbereitungen
@@ -159,14 +159,18 @@ Legen Sie für jede einzelne Übung einen Unterordner für die benötigten Daten
 
 ### Hilfe
 Beim Start von ArcGIS Pro finden Sie am Rechten Rand verschiedene Links zu Ressourcen von ESRI. Eine kurze Einführung finden Sie hier:
+
 - [https://learn.arcgis.com/de/projects/get-started-with-arcgis-pro/](https://learnen Sie die Startseite der Online-Hilfe. Es existiert eine kontextsensitive Hilfe (Mouse Over):
+
 - [https://pro.arcgis.com/de/pro-app/latest/get-started/help-within-the-app.htm](https://pro.arcgis.comm/de/pro-app/latest/get-started/introducing-arcgis-pro.htm](https://pro.arcgis.com/de/pro-app/latest/get-started/introducing-arcgisng Teil 1)
 
 ArcGIS Pro vereint die zahlreichen Komponenten, die in ArcMap als einzelne Programme vorhanden waren. Die Datenverwaltung des ArcCatalog, 3D Funktionen und natürlich die Analyse und Darstellungsfunktionen werden nun zentral und teilweise über Vorlagen verwaltet.
 
 ### Terminologie
 Viele bekannte Begriffe aus ArcMap sind nicht mehr gültig und neue sind hinzu gekommen. Um den Umstieg von ArcMap einfacher zu gestalten gibt es bei ESRI eine Liste mit gegenübergestellten Begriffen mit kurzen Beschreibungen:
-- [https://pro.arcgis.com/de/pro-app/latest/get-started/migrate-to-arcgis-pro.htm](https://pro.arcgis.com/de/pro-app/latest/get-started/migrate-to-arcgis-probrary/brochures/pdfs/arcgis-pro-terminology-guide.pdf](https://www.esri.com/content/dam/esrisites/sitecore-archive/Files/Pdfs/library/brochures    - Werkzeug
+
+- [https://pro.arcgis.com/de/pro-app/latest/get-started/migrate-to-arcgis-pro.htm](https://pro.arcgis.com/de/pro-app/latest/get-started/migrate-to-arcgis-probrary/brochures/pdfs/arcgis-pro-terminology-guide.pdf)
+- Werkzeug
 - Bereich
   - Inhalt
   - Katalog
