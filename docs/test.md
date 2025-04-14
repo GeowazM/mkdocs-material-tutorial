@@ -1,5 +1,5 @@
 
-# Tübinger Zentrum für wissenschaftliche Weiterbildung
+# Übung M1 Einführung ArcGIS_Pro
 ## Zertifikatsstudium Geodatenmanager/-in
 
 ### CAS Geographische Informationssysteme
@@ -13,7 +13,7 @@
 
 ---
 
-**Autoren:** Jörg Knödler
+**Autoren:** Dr. Gebhard Warth, Jörg Knödler & Mario Blersch
 
 ---
 
@@ -94,7 +94,7 @@
 
 ---
 
-## Verwendete Daten
+## Die Daten finden Sie [auf ILIAS](https://lms-ubinfo.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=&ref_id=1)
 - Fliessgewaessernetz.zip
 - NaturdenkmaleENDFND.zip
 - Naturschutzgebiete.zip

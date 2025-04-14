@@ -12,19 +12,19 @@ theme:
     - navigation.footer
   language: de
   palette:
+      # Dark Mode
+    - scheme: ut_dark
+      toggle:
+        icon: material/brightness-6
+        name: Dark mode
+      primary: custom
+      accent: red
     # Light Mode
     - scheme: slate
       toggle:
         icon: material/brightness-4
         name: Light mode
       primary: grey
-      accent: red
-    # Dark Mode
-    - scheme: ut_dark
-      toggle:
-        icon: material/brightness-6
-        name: Dark mode
-      primary: custom
       accent: red
 
 markdown_extensions:
