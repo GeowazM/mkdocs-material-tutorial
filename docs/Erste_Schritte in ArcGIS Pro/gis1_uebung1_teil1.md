@@ -10,31 +10,7 @@ Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und
 
 Für Übungen im weiteren Verlauf der Weiterbildung empfiehlt es sich, für jedes Modul einen Ordner und darin Unterordner für jeweilige Übungen anzulegen. Siehe 1.2
 
-hallo
-
-[![alt text](https://img.youtube.com/vi/video-id/0.jpg)](https://www.youtube.com/watch?v=jXf1EI2GuVE)
-
-test
-
-<iframe src="https://www.youtube.com/watch?v=QgVY2tjBMsA" allowfullscreen></iframe>
-
-fdafdew
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QgVY2tjBMsA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-hsafdsafd
-
-![testing](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_2/img5.png){ align=left }
-
-hallo
-
-![testing_center](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_2/img5.png){ align=center }
-
-hasllad
-
-![testing_middle](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_2/img5.png){ align=middle }
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Überblick
 
@@ -73,9 +49,8 @@ Klicken Sie auf OK.
 
 Wenn das Projekt geöffnet wird, wird eine Karte des Landkreises Tübingen, angezeigt. Das Fenster mit der Karte ist eine Kartenansicht. Die farbige Registerkarte oben in der Kartenansicht weist darauf hin, dass die Ansicht aktiv ist. Der Name der Ansicht lautet "Stadt Tübingen „.
 
-Im Projekt sind zwei weitere Ansichten vorhanden: die Karte "Stadt Tübingen" , und die lokale Szene "Tübingen_3D" .
-
-
+Im Projekt sind zwei weitere Ansichten vorhanden: die Karte "Stadt Tübingen" , und die lokale Szene "Tübingen_3D" ![3D_Szene](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_1/img17.png){ align=rigth }
+.
 
 ## Verwenden der Werkzeuge auf dem Menüband
 
