@@ -10,11 +10,11 @@ Achten Sie darauf im Pfad und im Verzeichnisnamen keine Umlaute, Leerzeichen und
 
 Für Übungen im weiteren Verlauf der Weiterbildung empfiehlt es sich, für jedes Modul einen Ordner und darin Unterordner für jeweilige Übungen anzulegen. Siehe 1.2
 
-![testing](assets/uebung_1/teil_2_img5.png){ align=left }
+![testing](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_2/img5.png){ align=left }
 
-![testing_center](assets/uebung_1/teil_2_img5.png){ align=center }
+![testing_center](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_2/img5.png){ align=center }
 
-![testing_middle](assets/uebung_1/teil_2_img5.png){ align=middle }
+![testing_middle](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/master/docs/assets/uebung_1/teil_2/img5.png){ align=middle }
 
 ## Überblick
 
