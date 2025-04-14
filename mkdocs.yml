@@ -10,6 +10,8 @@ theme:
   favicon: assets/ut_palme.png
   features:
     - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
   language: de
   palette:
       # Dark Mode
@@ -55,5 +57,7 @@ copyright: Copyright &copy; 2025 Geodatenmanager/-in, Universität Tübingen
 
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/GeowazM
     - icon: simple/youtube
       link: https://www.youtube.com/@geodatenwelten
