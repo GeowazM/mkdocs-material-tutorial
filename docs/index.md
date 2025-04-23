@@ -11,7 +11,7 @@
 
 ### Warum Geodaten & Geographische Informationssysteme?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align-items="center" allowfullscreen></iframe>
+<iframe width="640" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align-items="center" allowfullscreen></iframe>
 
 [Hier gehts zu ILIAS](https://lms-ubinfo.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=&ref_id=1){ .md-button }
 
