@@ -13,7 +13,7 @@
 
 <iframe width="750" height="450" src="https://www.youtube.com/embed/ZYfnekt9yKY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" align-items="center" allowfullscreen></iframe>
 
-[Hier gehts zu ILIAS](https://lms-ubinfo.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=&ref_id=1){ .md-button }
+<div style="text-align: center">[Hier gehts zu ILIAS](https://lms-ubinfo.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=&ref_id=1){ .md-button }</div>
 
 
 ---

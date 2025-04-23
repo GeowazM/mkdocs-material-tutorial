@@ -1,4 +1,4 @@
-## Übungsaufgabe: Niederschlagskarte für Deutschland - Layoutgestaltung in ArcGIS Pro
+## Übung 5: Niederschlagskarte für Deutschland - Layoutgestaltung in ArcGIS Pro
 
 **Modul:** GIS 1
 **Thema:** Kartenerstellung und Layoutgestaltung
@@ -6,7 +6,7 @@
 
 ---
 
-### **Lernziele**
+### 🎯 **Lernziele**
 
 - Sie verstehen die Bedeutung von Karten als Kommunikationsmittel für räumliche Informationen.
 - Sie beherrschen die grundlegenden Funktionen zur Layoutgestaltung in ArcGIS Pro.
@@ -19,7 +19,7 @@
 
 Sie arbeiten als GIS-Experte und sollen eine ansprechende und informative Karte der jährlichen Niederschlagsverteilung in Deutschland erstellen. Die Karte soll sowohl für den Druck (z.B. in einem Bericht) als auch für die digitale Verbreitung (z.B. auf einer Webseite) geeignet sein.
 
-### **Verwendete Daten**
+### 💾 **Daten**
 
 Ordner: Uebung\_Layout
 
@@ -40,9 +40,9 @@ Ordner: Uebung\_Layout
 
 ---
 
-### **Aufgabenstellung**
+### **Aufgabenstellung** 🗺️
 
-#### **1. Layout erstellen (20 Minuten)**
+#### **1. Layout erstellen**
 
 1. **Neues Layout:** Fügen Sie ein neues Layout im DIN A4-Format hinzu (Register "Einfügen" > Gruppe "Projekt" > "Neues Layout").
 2. **Kartenrahmen einfügen:** Fügen Sie einen Kartenrahmen in das Layout ein (Register "Einfügen" > Gruppe "Kartenrahmen"). Wählen Sie die zuvor erstellte Kartenansicht aus.
@@ -50,7 +50,7 @@ Ordner: Uebung\_Layout
 
 > **Hinweis aus der Lernforschung:** Experimentieren Sie mit verschiedenen Kartenausschnitten und Maßstäben, um ein Gefühl für die Wirkung unterschiedlicher Darstellungsweisen zu bekommen.
 
-#### **2. Kartenelemente hinzufügen (30 Minuten)**
+#### **2. Kartenelemente hinzufügen**
 
 Fügen Sie die folgenden Kartenelemente hinzu und passen Sie sie an:
 
@@ -64,7 +64,7 @@ Fügen Sie die folgenden Kartenelemente hinzu und passen Sie sie an:
 
 > **Hinweis aus der Lernforschung:** Achten Sie auf eine ausgewogene Anordnung der Kartenelemente und auf eine klare und verständliche Beschriftung. Eine gute Gestaltung unterstützt die Wahrnehmung und Interpretation der Karteninhalte (vgl. Tufte, The Visual Display of Quantitative Information).
 
-#### **3. Layout anpassen (20 Minuten)**
+#### **3. Layout anpassen**
 
 1. **Anordnung und Ausrichtung:** Ordnen Sie die Kartenelemente so an, dass ein harmonisches Gesamtbild entsteht. Achten Sie auf eine gute Ausrichtung und auf ausreichende Abstände zwischen den Elementen.
 2. **Schriftarten und Farben:** Wählen Sie geeignete Schriftarten und Farben für die Kartenelemente aus. Achten Sie auf eine gute Lesbarkeit und auf eine konsistente Gestaltung.
@@ -72,7 +72,7 @@ Fügen Sie die folgenden Kartenelemente hinzu und passen Sie sie an:
 
 > **Hinweis aus der Lernforschung:** Verwenden Sie Gestaltungsprinzipien wie Kontrast, Hierarchie und Balance, um die Aufmerksamkeit des Betrachters zu lenken und die wichtigsten Informationen hervorzuheben (vgl. Arnheim, Art and Visual Perception).
 
-#### **4. Exportieren (20 Minuten)**
+#### **4. Exportieren**
 
 1. **PDF-Export:** Exportieren Sie das Layout als PDF-Datei (Register "Freigeben" > Gruppe "Ausgabe" > "Layout exportieren"). Wählen Sie eine geeignete Auflösung für den Druck.
 2. **JPG/PNG-Export:** Exportieren Sie das Layout als JPG- oder PNG-Datei. Wählen Sie eine geeignete Auflösung für die digitale Verbreitung.
@@ -99,8 +99,3 @@ Fügen Sie die folgenden Kartenelemente hinzu und passen Sie sie an:
 ---
 
 **Viel Erfolg bei der Bearbeitung!**
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/62194985/16e7ed1f-4d6b-490d-ab0d-ceeef610c5b1/U_M1_06_Layout_20240506.pdf
-
