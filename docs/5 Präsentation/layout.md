@@ -48,7 +48,7 @@ Ordner: Uebung\_Layout
 
 ![Placeholder](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/kartenelemente.jpg "TITLE"){ align=center }
 
-<img src="https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/kartenelemente.jpg" alt="drawing" width="400"/>
+<img src="https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/kartenelemente.jpg" alt="drawing" width="750"/>
 
 
 *Quelle: www.spektrum.de/lexikon/kartographie-geomatik/kartenbestandteile/2573*
