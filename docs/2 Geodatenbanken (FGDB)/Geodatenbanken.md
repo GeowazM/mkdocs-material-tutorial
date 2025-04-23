@@ -26,7 +26,7 @@
 
 ### **Aufgabenstellung**
 
-#### **1. Vorbereitung und Basiskarte laden (ca. 10 Minuten)**
+#### **1. Vorbereitung und Basiskarte laden**
 
 - Legen Sie ein neues ArcGIS Pro-Projekt mit der Vorlage „Karte“ an und speichern Sie es im Ordner \GIS1.
 - Laden Sie eine Basiskarte (WMS oder ArcGIS-Basemap) und stellen Sie das Koordinatensystem auf UTM 32N (EPSG:25832) ein.
@@ -36,7 +36,7 @@ Basiskarte
 
 ---
 
-#### **2. Erstellen und Strukturieren einer File-Geodatabase (ca. 15 Minuten)**
+#### **2. Erstellen und Strukturieren einer File-Geodatabase**
 
 - Öffnen Sie den Katalog in ArcGIS Pro.
 - Erstellen Sie im Projektordner eine neue File-Geodatabase (z.B. „GDM_Geodatabases“).
@@ -47,7 +47,7 @@ Datenstruktur FGDB
 
 ---
 
-#### **3. Feature-Klassen erstellen (ca. 15 Minuten)**
+#### **3. Feature-Klassen erstellen**
 
 - Erstellen Sie im Feature-Dataset drei Feature-Klassen:
     - **Bäume** (Punkte, Attribut: Art, Typ Text)
@@ -57,7 +57,7 @@ Datenstruktur FGDB
 
 ---
 
-#### **4. Import externer Geodaten (ca. 20 Minuten)**
+#### **4. Import externer Geodaten**
 
 - Entpacken Sie die vorbereiteten OSM-Daten in den Projektordner (\OSM).
 - Legen Sie in Ihrer FGDB ein weiteres Feature-Dataset „OSM“ mit Koordinatensystem WGS84 (EPSG:4326) an.
@@ -66,7 +66,7 @@ Datenstruktur FGDB
 
 ---
 
-#### **5. Digitalisierung und Editieren (ca. 20 Minuten)**
+#### **5. Digitalisierung und Editieren**
 
 - Digitalisieren Sie im Bereich der Tübinger Altstadt zusätzliche Bäume, Kanäle und Gebäude, die in OSM fehlen.
 - Nutzen Sie das Werkzeug „Features erstellen“ und weisen Sie die passenden Attribute zu.
@@ -77,7 +77,7 @@ Feature erstellen
 
 ---
 
-#### **6. Arbeiten mit Snap-Funktionen (ca. 10 Minuten)**
+#### **6. Arbeiten mit Snap-Funktionen**
 
 - Aktivieren Sie die Fangfunktion („Snapping“) in der Statusleiste.
 - Digitalisieren Sie Kanäle und Gebäude so, dass keine Lücken oder Überlappungen entstehen.
@@ -85,7 +85,7 @@ Feature erstellen
 
 ---
 
-#### **7. Reflexion: Vorteile und typische Fehlerquellen (ca. 10 Minuten)**
+#### **7. Reflexion: Vorteile und typische Fehlerquellen**
 
 - Notieren Sie die Vorteile der FGDB gegenüber Shapefiles (z.B. Verwaltung mehrerer Feature-Klassen, keine Namensbeschränkungen, Speicherung verschiedener KBS).
 - Reflektieren Sie typische Fehlerquellen (z.B. falsches KBS, fehlende Attribute, unsaubere Digitalisierung) und beschreiben Sie Maßnahmen zur Vermeidung.
