@@ -6,7 +6,9 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/niederschlag_de.png" alt="Niederschlagskarte" width="750"/>
+??? info "Beispielkarte"
+
+![Beispielkarte](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/niederschlag_de.png "Niederschlagskarte von Deutschland"){ align=center }
 
 ---
 
