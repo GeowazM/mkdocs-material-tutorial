@@ -46,7 +46,7 @@ Ordner: Uebung\_Layout
 
 1. **Neues Layout:** Fügen Sie ein neues Layout im DIN A4-Format hinzu (Register "Einfügen" > Gruppe "Projekt" > "Neues Layout").
 
-![Placeholder](assets/5_praesentation/kartenelemente.png){ align=center }
+![Placeholder](https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/kartenelemente.jpg){ align=center }
 
 *Quelle: www.spektrum.de/lexikon/kartographie-geomatik/kartenbestandteile/2573*
 
