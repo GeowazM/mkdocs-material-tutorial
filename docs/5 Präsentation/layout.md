@@ -6,6 +6,10 @@
 
 ---
 
+<img src="https://raw.githubusercontent.com/GeowazM/mkdocs-material-tutorial/refs/heads/gh-pages/assets/5_praesentation/niederschlag_de.png" alt="Niederschlagskarte" width="750"/>
+
+---
+
 ### 🎯 **Lernziele**
 
 - Sie verstehen die Bedeutung von Karten als Kommunikationsmittel für räumliche Informationen.
