@@ -6,7 +6,7 @@
 
 ---
 
-### **Lernziele**
+### 🎯 **Lernziele**
 
 - Sie verstehen die Grundlagen von Digitalen Geländemodellen (DGM) und Digitalen Oberflächenmodellen (DOM).
 - Sie können LiDAR-Daten (LAS-Format) in ArcGIS Pro importieren und visualisieren.
@@ -16,11 +16,11 @@
 
 ---
 
-### **Szenario**
+### 🫵 **Szenario**
 
 Sie arbeiten als GIS-Analyst und sollen ein 3D-Modell des Hambacher Forsts erstellen und verschiedene Rasteranalysen durchführen, um die Geländeoberfläche zu charakterisieren. Die Ergebnisse sollen für die Planung von Renaturierungsmaßnahmen oder für die Visualisierung von Veränderungen durch den Tagebau genutzt werden.
 
-### **Verwendete Daten**
+### 💾 **Daten**
 
 Ordner: Geodaten/LGL/3D
 
@@ -45,13 +45,13 @@ Ordner: Geodaten/LGL/3D
 
 ### **Aufgabenstellung**
 
-#### **1. Datenrecherche im Internet (10 Minuten)**
+#### **1. Datenrecherche im Internet**
 
 Recherchieren Sie im Internet nach Informationen über den Hambacher Forst, insbesondere über die Geologie, Topographie und die Auswirkungen des Tagebaus. Nutzen Sie Geoportale und andere Online-Ressourcen.
 
 > **Hinweis aus der Lernforschung:** Die Recherche im Internet fördert die Informationskompetenz und das Verständnis für den Kontext der Aufgabe (vgl. Bransford et al., How People Learn).
 
-#### **2. Vektordatengenerierung aus XYZ-Daten (15 Minuten)**
+#### **2. Vektordatengenerierung aus XYZ-Daten**
 
 1. **XYZ-Daten importieren:** Entpacken Sie die Datei "DGM\_5m\_GRIDXYZ\_UTM\_xyz.zip". Importieren Sie die XYZ-Daten (DGM5\_GRIDXYZ\_UTM\_\*.xyz) als Punkt-Feature-Class in ArcGIS Pro (Geoverarbeitung > XY Tabelle nach Punkt).
 2. **Koordinatensystem definieren:** Weisen Sie der Feature-Class das Koordinatensystem UTM 32N (EPSG:25832) zu.
@@ -59,7 +59,7 @@ Recherchieren Sie im Internet nach Informationen über den Hambacher Forst, insb
 
 > **Hinweis aus der Lernforschung:** Die Visualisierung der Punktwolke hilft, die räumliche Verteilung der Höhenpunkte zu verstehen (vgl. Ware, Information Visualization).
 
-#### **3. 3D-Visualisierung von LAS-Daten (20 Minuten)**
+#### **3. 3D-Visualisierung von LAS-Daten**
 
 1. **LAS-Daten hinzufügen:** Fügen Sie die LAS-Datensätze (LAS\_Hambach\_merge\_first.las, LAS\_Hambach\_merge\_last.las) dem Projekt hinzu (Katalog > Ordner > Zum Ordner verbinden).
 2. **Neue Szene erstellen:** Erstellen Sie eine neue "Lokale Szene" (Register "Einfügen" > Gruppe "Projekt" > "Neue Karte" > "Neue lokale Szene").
@@ -68,7 +68,7 @@ Recherchieren Sie im Internet nach Informationen über den Hambacher Forst, insb
 
 > **Hinweis aus der Lernforschung:** Die 3D-Visualisierung ermöglicht ein besseres Verständnis der Geländeoberfläche und der räumlichen Beziehungen (vgl. Bishop, Developing Geographic Literacy).
 
-#### **4. Rasterisierung von LAS-Daten (15 Minuten)**
+#### **4. Rasterisierung von LAS-Daten**
 
 1. **Werkzeug "LAS-Dataset in Raster":** Wechseln Sie zurück in die Kartenansicht. Öffnen Sie das Werkzeug "LAS-Dataset in Raster" (Geoverarbeitung > Conversion Tools > Punktwolke).
 2. **Parameter festlegen:**
@@ -80,7 +80,7 @@ Recherchieren Sie im Internet nach Informationen über den Hambacher Forst, insb
 
 > **Hinweis aus der Lernforschung:** Die Wahl des Abtastwerts beeinflusst die Detailgenauigkeit des resultierenden Rasters. Experimentieren Sie mit verschiedenen Werten, um den optimalen Wert für die Analyse zu finden.
 
-#### **5. Rasteranalysen (30 Minuten)**
+#### **5. Rasteranalysen**
 
 Führen Sie die folgenden Rasteranalysen auf dem erzeugten DGM ("Hambach\_DHM") durch:
 
@@ -112,10 +112,3 @@ Führen Sie die folgenden Rasteranalysen auf dem erzeugten DGM ("Hambach\_DHM") 
 ---
 
 **Viel Erfolg bei der Bearbeitung!**
-
-Die Platzhalter für die Bilder (`BILD-URL`) musst du natürlich noch durch passende Bild-URLs ersetzen.
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/62194985/941182f3-e4ab-40ee-809d-b39a80498403/U_M1_07_Rasterdaten_20240506.pdf
-

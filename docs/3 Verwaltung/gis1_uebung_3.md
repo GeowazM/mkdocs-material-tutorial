@@ -2,8 +2,6 @@ CAS Geographische Informationssysteme
 
 Modul: GIS 1
 
-Übung Ü_M1_Datenverwaltung_20240506.docx
-
 Bemerkungen zur Datenverwaltung 
 
 

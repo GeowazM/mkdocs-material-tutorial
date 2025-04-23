@@ -1,4 +1,4 @@
-## Übung 5: Niederschlagskarte für Deutschland - Layoutgestaltung in ArcGIS Pro
+## Übung 5: Niederschlagskarte für Deutschland - Layoutgestaltung
 
 **Modul:** GIS 1
 **Thema:** Kartenerstellung und Layoutgestaltung
@@ -15,7 +15,7 @@
 
 ---
 
-### **Szenario**
+### 🫵 **Szenario**
 
 Sie arbeiten als GIS-Experte und sollen eine ansprechende und informative Karte der jährlichen Niederschlagsverteilung in Deutschland erstellen. Die Karte soll sowohl für den Druck (z.B. in einem Bericht) als auch für die digitale Verbreitung (z.B. auf einer Webseite) geeignet sein.
 
@@ -45,6 +45,11 @@ Ordner: Uebung\_Layout
 #### **1. Layout erstellen**
 
 1. **Neues Layout:** Fügen Sie ein neues Layout im DIN A4-Format hinzu (Register "Einfügen" > Gruppe "Projekt" > "Neues Layout").
+
+![Placeholder](assets/5_praesentation/kartenelemente.png){ align=center }
+
+*Quelle: www.spektrum.de/lexikon/kartographie-geomatik/kartenbestandteile/2573*
+
 2. **Kartenrahmen einfügen:** Fügen Sie einen Kartenrahmen in das Layout ein (Register "Einfügen" > Gruppe "Kartenrahmen"). Wählen Sie die zuvor erstellte Kartenansicht aus.
 3. **Kartenausschnitt anpassen:** Aktivieren Sie den Kartenrahmen (Register "Layout" > Gruppe "Karte" > "Aktivieren") und passen Sie den Kartenausschnitt und den Maßstab so an, dass Deutschland optimal dargestellt wird.
 
