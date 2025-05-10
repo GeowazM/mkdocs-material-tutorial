@@ -1,16 +1,20 @@
 # 3. Abfragen
--	Manuelle Direktabfragen können mit dem Werkzeug Erkunden (Register Karte > Gruppe Navigieren) ausgeführt werden, indem Sie mit dem Werkzeuig auf ein Feature klicken oder einen Rahmen mit der Maus aufziehen. 
--	Mit Auswählen (Register Karte > Gruppe Auswahl) können aus einer Feature Class einzelne Features ausgewählt und für weitere Prozesse als Einzelmenge zur Verfügung gestellt werden. 
+Hinweise zu den Abfragen in ArcGIS Pro (gilt auch für andere GIS):
+-	Manuelle Direktabfragen können mit dem Werkzeug Erkunden (Register Karte > Gruppe Navigieren) ausgeführt werden, indem Sie mit dem Werkzeug auf ein Feature klicken oder einen Rahmen mit der Maus aufziehen. 
+-	Mit Auswählen (Register Karte > Gruppe Auswahl) können aus einer Feature Class einzelne Features ausgewählt und für weitere Prozesse als Einzelmenge zur Verfügung gestellt werden.  
 In den folgenden Abschnitten lernen Sie die grundlegenden Methoden der räumlichen Auswahl kennen. 
 ## 3.1 Interaktive Auswahl
 Die interaktive Auswahl erfolgt in der Regel mit der Maus und unterstützend mit der Tastatur (Shift-Taste), wie aus anderen Anwendungen bekannt. Die (beispielhafte) Aufgabe besteht nun darin, alle Features (Gemarkungen) im Layer „AX_KommunalesGebiet“ auszuwählen, die innerhalb des Landkreises Tübingen liegen. 
 Vorüberlegung:  
 Es gibt mehrere Layer im Projekt, bei sich überlagernden Features wird es schwierig die richtigen zu erwischen. ArcGIS Pro bietet verschiedene Möglichkeiten, damit umzugehen: Sie können Layer mit unterschiedlichen Hervorhebungsfarben (Highlight) einstellen: 
-Wählen Sie in den Layereigenschaften >  Auswahl und dort auf Alternative Farbe auswählen und stellen Sie unterschiedliche Farben für verwendete Layer ein. 
 
-Sie können Layer zur Auswahl deaktivieren:
+!!! note "Aufgabe 1 - Layereigenschaften für Auswahl vornehmen" 
 
-Im Inhaltsverzeichnis können Sie im Reiter – „Nach Auswahl auflisten“ durch markierten Haken einstellen, welche Layer auswählbar sind und welche nicht. 
+    Wählen Sie in den **Layereigenschaften > Auswahl** und dort auf 
+    - Alternative Farbe auswählen und 
+    - stellen Sie unterschiedliche Farben für verwendete Layer ein.  
+    - Sie können Layer zur Auswahl deaktivieren
+    - Im Inhaltsverzeichnis können Sie im Reiter – „Nach Auswahl auflisten“ durch markierten Haken einstellen, welche Layer auswählbar sind und welche nicht. 
 
 Sie können einen Layer zum einzig Auswählbaren machen:
 Im Inhaltsverzeichnis im Reiter der Standarddarstellung (Darstellungsreihenfolge) können Sie mit Rechtsklick auf einen Layer das Kontextmenü öffnen und dort über Auswahl zu Als einzig auswählbare Layer festlegen navigieren. 
@@ -32,7 +36,11 @@ Sie sehen, diese Methode ist mühsam und nervenaufreibend.
 Es gäbe auch noch die Möglichkeit, den Wert „Schluessel“ aus der Attributtabelle zu verwenden, wenn Sie sich mit dem AGS1 auskennen. 
 
 ## 3.2 Select by Attribute – Nach Attribut auswählen 
-Eine effektivere Auswahlmethode ist die Auswahl nach Attributen. Oft stehen nutzbare Informationen in den Sachdaten und sind damit über verschiedene Argumente abfragbar. Untersuchen Sie die Sachdaten der Layer nach „Tübingen“. 
+Eine effektivere Auswahlmethode ist die Auswahl nach Attributen. Oft stehen nutzbare Informationen in den Sachdaten und sind damit über verschiedene Argumente abfragbar. 
+
+!!! note "Aufgabe 2" 
+    Untersuchen Sie die Sachdaten der Layer nach „Tübingen“.  
+
 Suchen Sie nun nach Features mit der Eigenschaft Tübingen. Leider ist diese nicht in den Sachdaten des Layers „AX_KommunalesGebiet“ enthalten, das wäre schön. 
 Trotzdem ist die Abfrage hier hilfreich, wir wenden Sie auf den Layer „AX_Gebiet_Kreis“ an: 
 Öffnen Sie die Abfragemaske über das Menüband Karte > Gruppe Auswahl > Werkzeug Nach Attributen auswählen. 
@@ -75,6 +83,8 @@ Wählen Sie aus der Datei „Offenlandkartierung_polygon.shp“ alle Features, d
 Finden Sie dabei nur gleichartige Biotope? Wie viele insgesamt?
 
 Ziehen Sie die Hilfe von ArcGIS Pro zu Rate, wenn Sie kein Ergebnis erhalten. Oder diskutieren Sie mit Ihren netten Nachbarn. 
+
+
 # 4 Feldberechnung
 ## 4.1 Vorbereitung 
 Klicken Sie mit der rechten Maustaste (Kontextmenü) auf den Layer und exportieren Sie die Auswahl über Daten > Features exportieren… in eine neue Datei, beispielsweise „Biotope_Bach_Auswahl“. Achten Sie darauf, dass Sie in eine Geodatabase (GDB), exportieren. ArcGIS Pro speichert nur die Auswahl. 

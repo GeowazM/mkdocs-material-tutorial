@@ -1,13 +1,15 @@
 # 2. Daten
+In dieser Übung wird mit frei zugänglichen, behördlichen Daten gearbeitet. Bitte recherchieren laden Sie diese über die im Laufe der Seite aufgeführten Links. Die ebenfalls genannten Webmapservices werden nicht für die Analyse benötigt, geben aber als Hintergrundkarten räumliche Orientierung.
+
 Ordner: /Geodaten 
 /LUBW/BiotopeLandesweit/Offenlandkartierung_polygon.shp 
 /LGL/OpenData/OD_AX_Alle_VerwaltungseinheitenBW/AX_Kommunales_Gebiet.shp 
 /LGL/OpenData/OD_AX_Alle_VerwaltungseinheitenBW/AX_GebietKreis.shp 
 
-WMS 
-[http://ows.terrestris.de/osm/service?]
-[https://owsproxy.lgl-bw.de/owsproxy/ows/WMS_Maps4BW?]
-[http://sgx.geodatenzentrum.de/wms_topplus_open?]
+**WMS** 
+- http://ows.terrestris.de/osm/service?
+- https://owsproxy.lgl-bw.de/owsproxy/ows/WMS_Maps4BW?
+- http://sgx.geodatenzentrum.de/wms_topplus_open?
  
 Informationen zu dieser Übung finden Sie in den Präsentationsfolien im ILIAS: 
             P_M1_RäumlicheAnalysen.PDF 
@@ -15,16 +17,16 @@ Informationen zu dieser Übung finden Sie in den Präsentationsfolien im ILIAS:
 
 ## 2.1 	Datenrecherche
 
-Die verwendeten Daten finden Sie beim LGL BW unter OpenData und bei der Landesanstalt für Umwelt LUBW zum Download. 
-https://www.lgl-bw.de/Produkte/Open-Data/
-https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml 
+Die in dieser Übung vorgesehenen Daten finden Sie beim Landesamt für Geoinformation und Landentwicklung (LGL) BW im OpenData-Bereich und bei der Landesanstalt für Umwelt (LUBW) zum Download.  
+https://www.lgl-bw.de/Produkte/Open-Data/  
+https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml
 
 ## 2.2 	Workflow
-•	Projekt erstellen 
-•	Daten laden 
-•	Abfrage nach Attributen 
-•	Lagebezogene Abfrage durchführen 
-•	Ergebnis speichern 
+1. Projekt erstellen 
+2. Daten laden 
+3. Abfrage nach Attributen 
+4. Lagebezogene Abfrage durchführen 
+5. Ergebnis speichern 
 
 ## 2.3 	Vorbereitung
 

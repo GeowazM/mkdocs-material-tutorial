@@ -19,18 +19,18 @@ Feldberechnung
 - Feldrechner
 
 ## 1.3. Verwendete Daten
-Vektordaten:
-LUBW BW Biotope
-LGL BW Verwaltungseinheiten
+**Vektordaten:**
+- LUBW BW Biotope
+- LGL BW Verwaltungseinheiten
 
-WMS-Dienste:
-OWS Terrestris (Openstreetmap)
-Maps4BW
-TopplusOpen
+**WMS-Dienste:**
+- OWS Terrestris (Openstreetmap)
+- Maps4BW
+- TopplusOpen
 
 ## 1.4. Informationen
 Informationen zu dieser Übung finden Sie in den Präsentationsfolien im ILIAS: 
-            P_M1_RäumlicheAnalysen.PDF 
+P_M1_RäumlicheAnalysen.PDF 
 
 ## Abbildungen:
 Soweit nicht anders gekennzeichnet handelt es sich bei den Abbildungen in diesem Skript um Screenshots der aufgeführten Software, oder sie wurden aus dem ESRI ArcGIS Ressource Center entnommen.
