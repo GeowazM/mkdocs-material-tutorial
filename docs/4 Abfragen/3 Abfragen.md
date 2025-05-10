@@ -2,7 +2,7 @@
 -	Manuelle Direktabfragen können mit dem Werkzeug Erkunden (Register Karte > Gruppe Navigieren) ausgeführt werden, indem Sie mit dem Werkzeuig auf ein Feature klicken oder einen Rahmen mit der Maus aufziehen. 
 -	Mit Auswählen (Register Karte > Gruppe Auswahl) können aus einer Feature Class einzelne Features ausgewählt und für weitere Prozesse als Einzelmenge zur Verfügung gestellt werden. 
 In den folgenden Abschnitten lernen Sie die grundlegenden Methoden der räumlichen Auswahl kennen. 
-3.1 	Interaktive Auswahl
+## 3.1 Interaktive Auswahl
 Die interaktive Auswahl erfolgt in der Regel mit der Maus und unterstützend mit der Tastatur (Shift-Taste), wie aus anderen Anwendungen bekannt. Die (beispielhafte) Aufgabe besteht nun darin, alle Features (Gemarkungen) im Layer „AX_KommunalesGebiet“ auszuwählen, die innerhalb des Landkreises Tübingen liegen. 
 Vorüberlegung:  
 Es gibt mehrere Layer im Projekt, bei sich überlagernden Features wird es schwierig die richtigen zu erwischen. ArcGIS Pro bietet verschiedene Möglichkeiten, damit umzugehen: Sie können Layer mit unterschiedlichen Hervorhebungsfarben (Highlight) einstellen: 
@@ -31,7 +31,7 @@ Selektieren Sie nun mit der Maus mit einem der Auswahlwerkzeuge bis Sie alle Gem
 Sie sehen, diese Methode ist mühsam und nervenaufreibend. 
 Es gäbe auch noch die Möglichkeit, den Wert „Schluessel“ aus der Attributtabelle zu verwenden, wenn Sie sich mit dem AGS1 auskennen. 
 
-3.2 	Select by Attribute – Nach Attribut auswählen 
+## 3.2 Select by Attribute – Nach Attribut auswählen 
 Eine effektivere Auswahlmethode ist die Auswahl nach Attributen. Oft stehen nutzbare Informationen in den Sachdaten und sind damit über verschiedene Argumente abfragbar. Untersuchen Sie die Sachdaten der Layer nach „Tübingen“. 
 Suchen Sie nun nach Features mit der Eigenschaft Tübingen. Leider ist diese nicht in den Sachdaten des Layers „AX_KommunalesGebiet“ enthalten, das wäre schön. 
 Trotzdem ist die Abfrage hier hilfreich, wir wenden Sie auf den Layer „AX_Gebiet_Kreis“ an: 
@@ -48,7 +48,7 @@ In 3.4 werden weitere Attribut-Abfragen bearbeitet.
  
 Abbildung 3: Selektierte Fläche des Landkreises Tübingen.
 
-3.3 	Select by Location – Lagebezogen auswählen 
+## 3.3 Select by Location – Lagebezogen auswählen 
 Eine zuvor definierte Auswahl an Features kann auf einen anderen Layer angewendet werden, um gerade dort eine weitere Auswahl von Features auf Basis der räumlichen Lage auszulösen. 
 Im aktuellen Fall sollen alle Gemeindegrenzen ausgewählt werden, die innerhalb des Landkreises Tübingen liegen. Mit dem Werkzeug „Lagebezogen auswählen“ (Karte > Auswahl > Lagebezogen auswählen) können detaillierte Abfragen durchgeführt werden. 
 Selektieren Sie alle Gemeinden innerhalb des Landkreises Tübingen (Abbildung 4):
@@ -69,17 +69,17 @@ Sie können diese Selektion als neue Datei abspeichern:
 
 Rechtsklick auf den Layer „Kommunale Gebiete“ - Daten  - „ Features exportieren – Gemeinden_LK_Tue in die Projekt-GDB. 
 
-4.	Select by Attribut – Nach Attribut auswählen II 
+## 3.4. Select by Attribut – Nach Attribut auswählen II 
 Mit den ersten Fertigkeiten aus 3.3 versuchen Sie sich an folgendem Auftrag: 
 Wählen Sie aus der Datei „Offenlandkartierung_polygon.shp“ alle Features, die in der Spalte „Biotop“ die Zeichenfolge „Bach“ oder „bach“ enthalten. 
 Finden Sie dabei nur gleichartige Biotope? Wie viele insgesamt?
 
 Ziehen Sie die Hilfe von ArcGIS Pro zu Rate, wenn Sie kein Ergebnis erhalten. Oder diskutieren Sie mit Ihren netten Nachbarn. 
-4  	Feldberechnung
-4.1 	Vorbereitung 
+# 4 Feldberechnung
+## 4.1 Vorbereitung 
 Klicken Sie mit der rechten Maustaste (Kontextmenü) auf den Layer und exportieren Sie die Auswahl über Daten > Features exportieren… in eine neue Datei, beispielsweise „Biotope_Bach_Auswahl“. Achten Sie darauf, dass Sie in eine Geodatabase (GDB), exportieren. ArcGIS Pro speichert nur die Auswahl. 
 
-4.2 	Fläche berechnen
+## 4.2 Fläche berechnen
 Die exportierte Datei wird in den Datenrahmen übernommen. 
 Ziel: Erstellen Sie eine neue Spalte/ein Feld und berechnen Sie die Fläche der Features in m². 
 Vorüberlegung: Vielleicht haben Sie schon etwas über Datenbanken und Tabellen gehört, über Datentypen usw. Deshalb überlegen Sie, mit welchem Datentyp das neue Feld erstellt wird. 

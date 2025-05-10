@@ -3,6 +3,9 @@
 Geodaten enthalten fast immer auch Sachdaten, die zunächst nicht kartographisch dargestellt sind. Eine Möglichkeit mit diesen Informationen zu arbeiten, ist, sie mittels speziellen Abfragen zu thematisieren. In den Tabellen sind oft umfangreiche Informationen enthalten. Um diese Tabellen abzufragen stellen Geographische Informationssysteme spezielle Abfragewerkzeuge zur Verfügung. 
 Auch viele Geoverarbeitungsschritte erfordern zunächst eine solche Abfrage, insofern stellen die nachfolgenden Übungen wichtige Kenntnisse zur Verfügung, die Sie in weiteren Aufgabenstellungen brauchen werden. 
 In diesen Übungen analysieren Sie Daten der Landesanstalt für Geoinformation und Landentwicklung (LGL) sowie der Landesanstalt für Umwelt, Messungen und Naturschutz Baden-Württemberg (LUBW). 
+
+![alt text](C:/Uni/GDM/GIT_MD_Documents/mkdocs-material-tutorial/docs/assets/4_Abfragen/Titelbild.png "Kommunen im Landkreis Tübingen")
+
 In dieser Übung lernen Sie folgende Themen: 
 Verwendung der interaktiven Auswahlwerkzeuge 
 Verwendung der Auswahl nach Attributen (select by attribute) 
@@ -10,6 +13,10 @@ Verwendung der lagebezogenen Auswahl (select by location)
 Feldberechnung 
 
 ## 1.2. Verwendete Werkzeuge
+- Interaktive Auswahl
+- Select by Attribute - Attributauswahl
+- Select by Location - Lagebezogene Auswahl
+- Feldrechner
 
 ## 1.3. Verwendete Daten
 Vektordaten:
