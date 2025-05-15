@@ -1,0 +1,1961 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://sitename.example/x4%20Analyse/analysen/">
+      
+      
+        <link rel="prev" href="../abfragen/">
+      
+      
+        <link rel="next" href="../../x5%20Pr%C3%A4sentation/layout/">
+      
+      
+      <link rel="icon" href="../../assets/cd/ut_palme.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>Analysen - Geographische Informationssysteme 1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRed+Hat+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Red Hat Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="ut_dark" data-md-color-primary="custom" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#ubungsaufgabe-ausschlussflachenanalyse-fur-windkraftanlagen" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../.." title="Geographische Informationssysteme 1" class="md-header__button md-logo" aria-label="Geographische Informationssysteme 1" data-md-component="logo">
+      
+  <img src="../../assets/cd/UT_WBMW_Rot_RGB_v2.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Geographische Informationssysteme 1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Analysen
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="ut_dark" data-md-color-primary="custom" data-md-color-accent="red"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18V6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-2.69L23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="red"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Geographische Informationssysteme 1" class="md-nav__button md-logo" aria-label="Geographische Informationssysteme 1" data-md-component="logo">
+      
+  <img src="../../assets/cd/UT_WBMW_Rot_RGB_v2.svg" alt="logo">
+
+    </a>
+    Geographische Informationssysteme 1
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Wilkommen zu Modul GIS 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    1 Oberfläche und Projekte kennenlernen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            1 Oberfläche und Projekte kennenlernen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1%20Oberfl%C3%A4che%20und%20Projekte%20kennenlernen/teil-1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Teil 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../1%20Oberfl%C3%A4che%20und%20Projekte%20kennenlernen/teil-2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Projekterstellung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    2 Geodatenbanken (FGDB)
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            2 Geodatenbanken (FGDB)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Geodatenbanken%20%28FGDB%29/Geodatenbanken/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geodatenbanken
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2%20Geodatenbanken%20%28FGDB%29/gis1_uebung_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gis1 uebung 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    3 Verwaltung
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            3 Verwaltung
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3%20Verwaltung/datenorganisation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Datenorganisation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../3%20Verwaltung/gis1_uebung_3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Gis1 uebung 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    4 Abfragen
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            4 Abfragen
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Abfragen/1%20Ziele/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. Hintergrund
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Abfragen/2%20Daten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. Daten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Abfragen/3%20Abfragen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3. Abfragen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../4%20Abfragen/4%20Ausblick/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5. Ausblick
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    5 Geoverarbeitung
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            5 Geoverarbeitung
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../5%20Geoverarbeitung/Geoverarbeitung/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Geoverarbeitung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    6 Layout
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            6 Layout
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../6%20Layout/Layout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Übung Layout - Kartenerstellung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    7 Rasterdaten
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            7 Rasterdaten
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../7%20Rasterdaten/Rasterdaten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CAS Geographische Informationssysteme
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Tutorial
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Tutorial
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/admonitions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Admonitions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/code-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Coding python interactively
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/content-tabs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Content tabs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/diagram-examples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Diagram Examples
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/new-one/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    New one to test git commit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/qgis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QGIS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Tutorial/qgis_de/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    QGIS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Webinar
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Webinar
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Webinar/aufgabe_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aufgabe 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Webnar 2
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            Webnar 2
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../webnar_2/tabellen_join-relate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Zertifikatsstudium Geodatenmanager/-in
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    x4 Analyse
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            x4 Analyse
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../abfragen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Abfragen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Analysen
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analysen
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ubungsaufgabe-ausschlussflachenanalyse-fur-windkraftanlagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Übungsaufgabe: Ausschlussflächenanalyse für Windkraftanlagen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Übungsaufgabe: Ausschlussflächenanalyse für Windkraftanlagen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lernziele
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#szenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Szenario
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verwendete-daten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verwendete Daten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vorbereitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vorbereitung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aufgabenstellung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-daten-laden-und-vorbereiten-10-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Daten laden und vorbereiten (10 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ausschneiden-clip-20-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Ausschneiden (Clip) (20 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-puffer-erstellen-20-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Puffer erstellen (20 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-biotope-als-ausschlussflachen-15-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Biotope als Ausschlussflächen (15 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-vereinheitlichung-und-symbologie-15-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Vereinheitlichung und Symbologie (15 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abgabe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abgabe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bewertungskriterien" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bewertungskriterien
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    x5 Präsentation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            x5 Präsentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../x5%20Pr%C3%A4sentation/layout/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Layout
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../x5%20Pr%C3%A4sentation/rasterdaten/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Rasterdaten
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ubungsaufgabe-ausschlussflachenanalyse-fur-windkraftanlagen" class="md-nav__link">
+    <span class="md-ellipsis">
+      Übungsaufgabe: Ausschlussflächenanalyse für Windkraftanlagen
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Übungsaufgabe: Ausschlussflächenanalyse für Windkraftanlagen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lernziele
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#szenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Szenario
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verwendete-daten" class="md-nav__link">
+    <span class="md-ellipsis">
+      Verwendete Daten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vorbereitung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vorbereitung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aufgabenstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aufgabenstellung
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Aufgabenstellung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-daten-laden-und-vorbereiten-10-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Daten laden und vorbereiten (10 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-ausschneiden-clip-20-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Ausschneiden (Clip) (20 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-puffer-erstellen-20-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Puffer erstellen (20 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-biotope-als-ausschlussflachen-15-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Biotope als Ausschlussflächen (15 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-vereinheitlichung-und-symbologie-15-minuten" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Vereinheitlichung und Symbologie (15 Minuten)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abgabe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abgabe
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bewertungskriterien" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bewertungskriterien
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Analysen</h1>
+
+<h2 id="ubungsaufgabe-ausschlussflachenanalyse-fur-windkraftanlagen">Übungsaufgabe: Ausschlussflächenanalyse für Windkraftanlagen</h2>
+<p><strong>Modul:</strong> GIS 1
+<strong>Thema:</strong> Geoverarbeitung zur Ableitung von Ausschlussflächen für Windkraftanlagen
+<strong>Bearbeitungszeit:</strong> 90 Minuten</p>
+<hr />
+<h3 id="lernziele"><strong>Lernziele</strong></h3>
+<ul>
+<li>Sie recherchieren und beschaffen Geodaten aus verschiedenen Quellen.</li>
+<li>Sie führen Geoverarbeitungsschritte wie Abfragen, Ausschneiden (Clip), Puffern und Vereinigen (Union) in ArcGIS Pro durch.</li>
+<li>Sie wenden Geoverarbeitungswerkzeuge zur Analyse von Ausschlussflächen an.</li>
+<li>Sie vereinheitlichen Datensätze und weisen ihnen eine geeignete Symbologie zu.</li>
+</ul>
+<hr />
+<h3 id="szenario"><strong>Szenario</strong></h3>
+<p>Am Albtrauf (Rand der Schwäbischen Alb) in der Nähe von Reutlingen gibt es Gerüchte über die Planung von Windkraftanlagen. Anwohner fragen Sie als GIS-Experten, ob ihre Gemeinden betroffen sein könnten und welche Auswirkungen eine eventuelle Errichtung der WKA haben könnte. Sie erstellen eine erste Ermittlung der Raumsituation mit frei verfügbaren Daten.</p>
+<h3 id="verwendete-daten"><strong>Verwendete Daten</strong></h3>
+<p>Ordner: Geoverarbeitung</p>
+<ul>
+<li>AX_KommunalesGebiet.shp (Gemeindegrenzen)</li>
+<li>Waldbiotopkartierung_polygon.shp</li>
+<li>Offenlandkartierung_polygon.shp</li>
+<li>gis_osm_buildings_a_free_1.shp</li>
+<li>gis_osm_landuse_a_free_1.shp</li>
+</ul>
+<h3 id="vorbereitung"><strong>Vorbereitung</strong></h3>
+<ol>
+<li><strong>Datenrecherche:</strong>  Recherchieren Sie nach Geodaten, die für die Analyse relevant sind (z.B. OpenStreetMap-Daten, Biotopkartierungen, administrative Gebietseinheiten).</li>
+<li><strong>Datenbeschaffung:</strong> Laden Sie die genannten Daten aus dem bereitgestellten Ordner "Geoverarbeitung" in Ihr Arbeitsverzeichnis.</li>
+<li><strong>Projekt einrichten:</strong> Erstellen Sie ein neues ArcGIS Pro-Projekt und laden Sie die Geodaten.</li>
+<li><strong>Raumbezug prüfen:</strong> Stellen Sie sicher, dass das Koordinatensystem auf UTM 32N (EPSG:25832) eingestellt ist.</li>
+<li><strong>Datenvisualisierung:</strong>  Symbolisieren Sie die Biotope nach Kategorie (BIOTOPTY02) und beschriften Sie sie nach Typ (BIOTOPTYP_). Weisen Sie den LGL-Layern eine transparente Füllung und administrative Grenzen als Umriss zu.</li>
+</ol>
+<blockquote>
+<p><strong>Hinweis aus der Lernforschung:</strong> Die Visualisierung der Daten fördert das räumliche Verständnis und erleichtert die spätere Interpretation der Analyseergebnisse (vgl. Mayer, Multimedia Learning).</p>
+</blockquote>
+<hr />
+<h3 id="aufgabenstellung"><strong>Aufgabenstellung</strong></h3>
+<h4 id="1-daten-laden-und-vorbereiten-10-minuten"><strong>1.  Daten laden und vorbereiten (10 Minuten)</strong></h4>
+<p>Laden Sie die aufgeführten Daten in ein neues ArcGIS Pro-Projekt. Gruppieren Sie die Daten nach Datenquellen in Layergruppen (z.B. "OSM", "LUBW", "LGL"), um die Übersichtlichkeit zu erhöhen.</p>
+<blockquote>
+<p><strong>Hinweis aus der Lernforschung:</strong> Eine klare Strukturierung der Daten in Layergruppen reduziert die kognitive Belastung und erleichtert die Navigation im Projekt (Cognitive Load Theory).</p>
+</blockquote>
+<h4 id="2-ausschneiden-clip-20-minuten"><strong>2.  Ausschneiden (Clip) (20 Minuten)</strong></h4>
+<p>Schneiden Sie die landesweiten Datensätze (OSM Landuse, OSM Gebäude, Offenlandkartierung, Waldbiotopkartierung) auf den Bereich der Gemeinden Sonnenbühl, Lichtenstein und Engstingen zu.</p>
+<ol>
+<li><strong>Selektion:</strong> Wählen Sie in der Attributtabelle der Datei "AX_KommunalesGebiet" die Gemeinden Sonnenbühl, Lichtenstein und Engstingen aus.</li>
+<li><strong>Ausschneiden-Werkzeug:</strong> Verwenden Sie das Werkzeug "Ausschneiden" (Geoverarbeitung &gt; Analysis Tools &gt; Extrahieren &gt; Ausschneiden), um die Datensätze zuzuschneiden.</li>
+<li><strong>Eingabe-Features:</strong> Wählen Sie die zuzuschneidenden Datensätze (OSM Landuse, OSM Gebäude, Offenlandkartierung, Waldbiotopkartierung).</li>
+<li><strong>Clip-Features:</strong> Wählen Sie den Datensatz "AX_KommunalesGebiet" mit den ausgewählten Gemeinden.</li>
+<li><strong>Ausgabe-Namen:</strong> Vergeben Sie aussagekräftige Namen für die Ausgabedateien (z.B. "OSM_Landuse_clip", "OSM_Gebaeude_clip").</li>
+</ol>
+<blockquote>
+<p><strong>Hinweis aus der Lernforschung:</strong> Formulieren Sie vor der Anwendung des Werkzeugs das Ziel des Geoverarbeitungsschritts und die notwendigen Schritte in eigenen Worten. Dies fördert das konzeptuelle Verständnis (vgl. Reigeluth, Elaboration Theory).</p>
+</blockquote>
+<h4 id="3-puffer-erstellen-20-minuten"><strong>3.  Puffer erstellen (20 Minuten)</strong></h4>
+<p>Erstellen Sie einen Puffer von 700 Metern um die Siedlungsflächen, um den Abstand zu Siedlungsgebieten als Ausschlusskriterium für Windkraftanlagen abzubilden.</p>
+<ol>
+<li><strong>Landnutzungsklasse "residential":</strong> Wählen Sie im Datensatz "OSM_Landuse_clip" die Landnutzungsklasse "residential" aus (Abfrage nach Attributen).</li>
+<li><strong>Puffer-Werkzeug:</strong> Verwenden Sie das Werkzeug "Puffer" (Geoverarbeitung &gt; Analysis Tools &gt; Nähe &gt; Puffer), um einen Puffer um die ausgewählten Siedlungsflächen zu erstellen.</li>
+<li><strong>Eingabe-Features:</strong> Wählen Sie den Datensatz "OSM_Landuse_clip" mit der ausgewählten Landnutzungsklasse "residential".</li>
+<li><strong>Distanz:</strong> Geben Sie einen Pufferabstand von 700 Metern ein.</li>
+<li><strong>Ausgabe-Name:</strong> Vergeben Sie einen aussagekräftigen Namen für die Ausgabedatei (z.B. "Siedlungsgebiete_Puffer_700m").</li>
+</ol>
+<blockquote>
+<p><strong>Hinweis aus der Lernforschung:</strong> Visualisieren Sie den Puffer um die Siedlungsgebiete, um die räumliche Auswirkung des Abstandskriteriums zu verdeutlichen.</p>
+</blockquote>
+<h4 id="4-biotope-als-ausschlussflachen-15-minuten"><strong>4.  Biotope als Ausschlussflächen (15 Minuten)</strong></h4>
+<p>Identifizieren Sie wertvolle Biotope, die als Ausschlussflächen für Windkraftanlagen dienen sollen.</p>
+<ol>
+<li><strong>Vereinigen (Union):</strong> Führen Sie die Datensätze "Offenlandkartierung_clip" und "Waldbiotopkartierung_clip" mit dem Werkzeug "Vereinigen" (Geoverarbeitung &gt; Analysis Tools &gt; Überlagerung &gt; Vereinigen) zu einem Datensatz "Biotope_clip" zusammen.</li>
+<li><strong>Abfrage:</strong> Wählen Sie im Datensatz "Biotope_clip" alle Biotope aus, die als "besonders wertvoll" oder "schutzwürdig" eingestuft sind (Abfrage nach Attributen, z.B. anhand des Attributs "BIOTOPTYP").</li>
+</ol>
+<blockquote>
+<p><strong>Hinweis aus der Lernforschung:</strong> Diskutieren Sie in der Gruppe, welche Biotoptypen als Ausschlussflächen berücksichtigt werden sollen und wie die Kriterien für die Auswahl definiert werden können.</p>
+</blockquote>
+<h4 id="5-vereinheitlichung-und-symbologie-15-minuten"><strong>5.  Vereinheitlichung und Symbologie (15 Minuten)</strong></h4>
+<p>Vereinheitlichen Sie die Datensätze und weisen Sie ihnen eine geeignete Symbologie zu, um die Ergebnisse der Analyse übersichtlich darzustellen.</p>
+<ol>
+<li><strong>Felder hinzufügen:</strong> Fügen Sie den Datensätzen ggf. fehlende Felder hinzu (z.B. ein Feld "Ausschlussgrund" mit dem Datentyp "Text").</li>
+<li><strong>Feldberechnung:</strong> Berechnen Sie die Werte für das Feld "Ausschlussgrund" basierend auf den Attributen der Datensätze (z.B. "Siedlungsgebiet" für den Puffer um Siedlungsgebiete, "Biotop" für die ausgewählten Biotope).</li>
+<li><strong>Symbologie:</strong> Weisen Sie den Ausschlussflächen eine einheitliche Symbologie zu (z.B. eine rote Füllfarbe mit Transparenz), um sie von anderen Flächen zu unterscheiden.</li>
+</ol>
+<blockquote>
+<p><strong>Hinweis aus der Lernforschung:</strong> Erstellen Sie eine Legende, die die Symbologie der verschiedenen Ausschlussflächen erklärt.</p>
+</blockquote>
+<hr />
+<h3 id="abgabe"><strong>Abgabe</strong></h3>
+<ul>
+<li>Dokumentieren Sie Ihre Arbeitsschritte und fügen Sie Screenshots der wichtigsten Zwischenergebnisse (z.B. Abfragemasken, Geoverarbeitungswerkzeuge, Kartenansichten) in eine Markdown-Datei ein.</li>
+<li>Beschreiben Sie kurz Ihre Erkenntnisse und Herausforderungen.</li>
+<li>Diskutieren Sie die Ergebnisse der Analyse und bewerten Sie die Eignung der Fläche für Windkraftanlagen.</li>
+<li>Verwenden Sie für Bilder die Syntax <code>Bildbeschreibung</code>.</li>
+</ul>
+<hr />
+<h3 id="bewertungskriterien"><strong>Bewertungskriterien</strong></h3>
+<ul>
+<li>Korrekte Durchführung der Geoverarbeitungsschritte</li>
+<li>Nachvollziehbare Dokumentation</li>
+<li>Reflexion der Ergebnisse und Herausforderungen</li>
+<li>Anwendung von Best Practices (z.B. sinnvolle Dateinamen, nachvollziehbare Projektstruktur)</li>
+<li>Interpretation der Ergebnisse im Hinblick auf die Eignung für Windkraftanlagen</li>
+</ul>
+<hr />
+<p><strong>Viel Erfolg bei der Bearbeitung!</strong></p>
+<p>Die Platzhalter für die Bilder (<code>BILD-URL</code>) musst du natürlich noch durch passende Bild-URLs ersetzen.</p>
+<div style="text-align: center">⁂</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
+        
+          
+          <a href="../abfragen/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Abfragen">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Zurück
+              </span>
+              <div class="md-ellipsis">
+                Abfragen
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../x5%20Pr%C3%A4sentation/layout/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Layout">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Weiter
+              </span>
+              <div class="md-ellipsis">
+                Layout
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 Geodatenmanager/-in, Universität Tübingen
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/GeowazM" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@geodatenwelten" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.02 3.02 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.02 3.02 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.02 3.02 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814M9.545 15.568V8.432L15.818 12z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.footer", "navigation.instant", "navigation.instant.progress"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
