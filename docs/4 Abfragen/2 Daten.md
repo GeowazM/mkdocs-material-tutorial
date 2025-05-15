@@ -30,9 +30,9 @@ https://udo.lubw.baden-wuerttemberg.de/public/index.xhtml
 
 ## 2.3 	Vorbereitung
 
--	Entpacken Sie die genannten Daten in Ihr Arbeitsverzeichnis
--	Erstellen Sie ein neues ArcGIS Pro Projekt mit dem Namen „Vektor_Abfragen“ und laden Sie sie die eingangs angegebenen Daten. Fügen Sie eine Basemap bzw. Basiskarte hinzu, damit Sie sich besser orientieren können. Sie können eine Basemap von ESRI hinzuladen oder einen der genannten WMS. 
--	Kontrollieren Sie den Raumbezug, resp. ob das richtige Koordinatensystem eingestellt ist (25832). 
--	Stellen Sie für die Biotope eine Symbolisierung nach Kategorie – BIOTOPTY02 und eine Beschriftung nach BIOTOPTYP_ ein. 
--	Die LGL Layer werden eine transparente Füllung zugewiesen und als Umring die administrativen Grenzen aus der Vorschlagsliste von ArcGIS Pro. 
--	Die Beschriftung können Sie später schnell über die Layereigenschaften aus/einstellen, wenn sie stört. 
+    -	Entpacken Sie die genannten Daten in Ihr Arbeitsverzeichnis
+    -	Erstellen Sie ein neues ArcGIS Pro Projekt mit dem Namen „Vektor_Abfragen“ und laden Sie sie die eingangs angegebenen Daten. Fügen Sie eine Basemap bzw. Basiskarte hinzu, damit Sie sich besser orientieren können. Sie können eine Basemap von ESRI hinzuladen oder einen der genannten WMS. 
+    -	Kontrollieren Sie den Raumbezug, resp. ob das richtige Koordinatensystem eingestellt ist (25832). 
+    -	Stellen Sie für die Biotope eine Symbolisierung nach Kategorie – BIOTOPTY02 und eine Beschriftung nach BIOTOPTYP_ ein. 
+    -	Die LGL Layer werden eine transparente Füllung zugewiesen und als Umring die administrativen Grenzen aus der Vorschlagsliste von ArcGIS Pro. 
+    -	Die Beschriftung können Sie später schnell über die Layereigenschaften aus/einstellen, wenn sie stört. 

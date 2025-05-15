@@ -69,7 +69,9 @@ Verwenden Sie für die Aufgabenbearbeitung möglicherweise bereits vorhandene Da
 
 # 3 Vorbereitung
 
-Um eine möglichst effiziente Projektbearbeitung zu ermöglichen, empfiehlt es sich, die benötigten Daten in eine Geodatabase zu überführen.  Erstellen Sie dazu eine neue Geodatabase für das aktuelle Projekt, bereiten Sie Feature-Datasets mit geeignetem Koordinatensystem vor. 
+Um eine möglichst effiziente Projektbearbeitung zu ermöglichen, empfiehlt es sich, die benötigten Daten in eine Geodatabase zu überführen.  
+
+    Erstellen Sie dazu eine neue Geodatabase für das aktuelle Projekt, bereiten Sie Feature-Datasets mit geeignetem Koordinatensystem vor. 
 
 ## 3.1 Datenrecherche
 
@@ -77,16 +79,18 @@ OpenStreetmap-Daten sind eine sehr wertvolle Datenquelle, zudem sind diese Daten
 
 Bei der „Geofabrik" stehen die OpenStreetmap-Vektordaten zum kostenfreien Download zur Verfügung. Von der räumlichen Ausdehnung der Regierungsbezirke bis zur weltweiten Abdeckung können die Daten dort geladen werden.
 
-Geben Sie „OSM + download + geofabrik" in die Google-Suche ein! Finden Sie das Paket für das Regierungspräsidium Tübingen und laden Sie es herunter.
+    Geben Sie „OSM + download + geofabrik" in die Google-Suche ein! Finden Sie das Paket für das Regierungspräsidium Tübingen und laden Sie es herunter.
 
 Geschützte Biotope fallen unter den Anhang der INSPIRE-Richtlinie und müssten bereits öffentlich zur Verfügung stehen. Versuchen Sie es:  
-Sie finden die Daten auch auf dem Kartenserver der LUBW im Verzeichnis Natur und Landschaft > Geschützte Biotope. Mit einem Klick auf den Download-Icon können Sie die gepackte Datei in Ihr Download-Verzeichnis speichern.
+
+    Sie finden die Daten auch auf dem Kartenserver der LUBW im Verzeichnis Natur und Landschaft > Geschützte Biotope. Mit einem Klick auf den Download-Icon können Sie die gepackte Datei in Ihr Download-Verzeichnis speichern.
 
 **Abbildung 2:** Downloadmöglichkeit für Biotopdaten beim Datendienst des LUBW.
 
 Nun fehlen uns noch die administrativen Gebietseinheiten bzw. die Gemarkungsgrenzen, zumindest für unsere Gemeinden. Auch diese Daten fallen unter die INSPIRE-Konformität und müssten zu finden sein. Achten Sie darauf, dass Sie nach Vektordaten suchen.
 
-**Suchen und laden Sie:** „Gemarkungsgrenzen + BW + LGL+ shp + Download"
+**Suchen und laden Sie:** 
+    „Gemarkungsgrenzen + BW + LGL+ shp + Download"
 
 Wenn Sie alle diese Daten gefunden haben, brauchen Sie sie nicht herunterladen! Die Daten liegen vorbereitet auf dem Austauschlaufwerk bzw. ILIAS. Siehe „Verwendete Daten".
 
@@ -143,7 +147,7 @@ Die betroffenen Gemeinden sind Sonnenbühl, Lichtenstein, Engstingen.
 
 **Abbildung 4:** Attributabfrage über das Symbol hinter dem roten Kästchen.
 
-Wählen Sie daher über die Attributtabelle der Datei „AX_KommunalesGebiet“ die gewünschten Features der Gemeinden Sonnenbühl, Lichtenstein, Engstingen aus. Siehe dazu die Übung „Abfragen“.
+    Wählen Sie daher über die Attributtabelle der Datei „AX_KommunalesGebiet“ die gewünschten Features der Gemeinden Sonnenbühl, Lichtenstein, Engstingen aus. Siehe dazu die Übung „Abfragen“.
 
 ---
 

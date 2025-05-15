@@ -1,10 +1,14 @@
-# 1. Einführung wegdamit
+[Bild 1]: https://raw.github.com/GeowazM/mkdocs-material-tutorial/blob/master/docs/assets/uebung_1/teil_1/img6.png
+![Alt-Text][Bild 1]
+
+# 1. Einführung
 
 Zur Einführung öffnen Sie ein vorbereitetes Projekt, dass Geodaten zu Tübingen beinhaltet. Das ArcGIS Pro Projekt und die dazugehörigen Geodaten können Sie via ILAS herunterladen.
 
 [Hier gehts zu ILIAS](https://lms-ubinfo.uni-tuebingen.de/ilias3/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=&ref_id=1){ .md-button }
 
-!!! note "Aufgabe 1 - Ordner entzippen"
+> [!NOTE] 
+> "Aufgabe 1 - Ordner entzippen"
 
     Entpacken Sie *Einfuehrung_ArcGIS_Pro.zip* in ein Verzeichnis für dieses Modul, z.b. GIS1.
 

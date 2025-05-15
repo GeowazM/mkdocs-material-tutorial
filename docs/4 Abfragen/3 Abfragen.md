@@ -38,14 +38,15 @@ Es gäbe auch noch die Möglichkeit, den Wert „Schluessel“ aus der Attributt
 ## 3.2 Select by Attribute – Nach Attribut auswählen 
 Eine effektivere Auswahlmethode ist die Auswahl nach Attributen. Oft stehen nutzbare Informationen in den Sachdaten und sind damit über verschiedene Argumente abfragbar. 
 
-!!! note "Aufgabe 2" 
-    Untersuchen Sie die Sachdaten der Layer nach „Tübingen“.  
+"Aufgabe 2" Untersuchen Sie die Sachdaten der Layer nach „Tübingen“.  
 
-Suchen Sie nun nach Features mit der Eigenschaft Tübingen. Leider ist diese nicht in den Sachdaten des Layers „AX_KommunalesGebiet“ enthalten, das wäre schön. 
+    Suchen Sie nun nach Features mit der Eigenschaft Tübingen. 
+    
+Leider ist diese nicht in den Sachdaten des Layers „AX_KommunalesGebiet“ enthalten, das wäre schön. 
 Trotzdem ist die Abfrage hier hilfreich, wir wenden Sie auf den Layer „AX_Gebiet_Kreis“ an: 
-Öffnen Sie die Abfragemaske über das Menüband Karte > Gruppe Auswahl > Werkzeug Nach Attributen auswählen. 
-Als Eingabezeile wird hier der zu untersuchende Datensatz eingegeben. Wählen Sie aus dem Drop-Down-Menü „AX_Gebiet_Kreis“.
-Unter „Klausel hinzufügen“ wird die Bedingung für Abfrage eingegeben. Wählen Sie hier „Name“ mit „ist gleich“ und geben Sie „Tübingen“ als Bedingung ein (Abbildung 2). Mit „Übernehmen“ wird der Landkreis Tübingen in der Karte ausgewählt. 
+    Öffnen Sie die Abfragemaske über das Menüband Karte > Gruppe Auswahl > Werkzeug Nach Attributen auswählen. 
+    Als Eingabezeile wird hier der zu untersuchende Datensatz eingegeben. Wählen Sie aus dem Drop-Down-Menü „AX_Gebiet_Kreis“.
+    Unter „Klausel hinzufügen“ wird die Bedingung für Abfrage eingegeben. Wählen Sie hier „Name“ mit „ist gleich“ und geben Sie „Tübingen“ als Bedingung ein (Abbildung 2). Mit „Übernehmen“ wird der Landkreis Tübingen in der Karte ausgewählt. 
 
  
 Abbildung 2: Eingabemaske für die Abfrage nach Attributen.
@@ -58,12 +59,13 @@ Abbildung 3: Selektierte Fläche des Landkreises Tübingen.
 
 ## 3.3 Select by Location – Lagebezogen auswählen 
 Eine zuvor definierte Auswahl an Features kann auf einen anderen Layer angewendet werden, um gerade dort eine weitere Auswahl von Features auf Basis der räumlichen Lage auszulösen. 
-Im aktuellen Fall sollen alle Gemeindegrenzen ausgewählt werden, die innerhalb des Landkreises Tübingen liegen. Mit dem Werkzeug „Lagebezogen auswählen“ (Karte > Auswahl > Lagebezogen auswählen) können detaillierte Abfragen durchgeführt werden. 
-Selektieren Sie alle Gemeinden innerhalb des Landkreises Tübingen (Abbildung 4):
-Beziehung: Innerhalb 
-Eingabe-Features: „AX_Kommunales_Gebiet“ (Features, aus denen ausgewählt werden soll)
-Auswahl-Features: „AX_Gebiet_Kreis“ (Feature mit dem räumlichen Bezug)
-Führen Sie das Werkzeug aus.
+Im aktuellen Fall sollen alle Gemeindegrenzen ausgewählt werden, die innerhalb des Landkreises Tübingen liegen. 
+    Mit dem Werkzeug „Lagebezogen auswählen“ (Karte > Auswahl > Lagebezogen auswählen) können detaillierte Abfragen durchgeführt werden. 
+    Selektieren Sie alle Gemeinden innerhalb des Landkreises Tübingen (Abbildung 4):
+    Beziehung: Innerhalb 
+    Eingabe-Features: „AX_Kommunales_Gebiet“ (Features, aus denen ausgewählt werden soll)
+    Auswahl-Features: „AX_Gebiet_Kreis“ (Feature mit dem räumlichen Bezug)
+    Führen Sie das Werkzeug aus.
 
  
 Abbildung 4: Eingabemenü für die lagebezogene Auswahl.
@@ -75,42 +77,42 @@ Als Ergebnis erhalten Sie im Layer „AX_Kommunales_Gebiet“ alle Gemeindefläc
 Abbildung 5: Selektierte Gemeinden im Landkreis Tübingen.
 Sie können diese Selektion als neue Datei abspeichern: 
 
-Rechtsklick auf den Layer „Kommunale Gebiete“ - Daten  - „ Features exportieren – Gemeinden_LK_Tue in die Projekt-GDB. 
+    Rechtsklick auf den Layer „Kommunale Gebiete“ - Daten  - „ Features exportieren – Gemeinden_LK_Tue in die Projekt-GDB. 
 
 ## 3.4. Select by Attribut – Nach Attribut auswählen II 
 Mit den ersten Fertigkeiten aus 3.3 versuchen Sie sich an folgendem Auftrag: 
-Wählen Sie aus der Datei „Offenlandkartierung_polygon.shp“ alle Features, die in der Spalte „Biotop“ die Zeichenfolge „Bach“ oder „bach“ enthalten. 
-Finden Sie dabei nur gleichartige Biotope? Wie viele insgesamt?
+    Wählen Sie aus der Datei „Offenlandkartierung_polygon.shp“ alle Features, die in der Spalte „Biotop“ die Zeichenfolge „Bach“ oder „bach“ enthalten. 
+    Finden Sie dabei nur gleichartige Biotope? Wie viele insgesamt?
 
 Ziehen Sie die Hilfe von ArcGIS Pro zu Rate, wenn Sie kein Ergebnis erhalten. Oder diskutieren Sie mit Ihren netten Nachbarn. 
 
 
 # 4 Feldberechnung
 ## 4.1 Vorbereitung 
-Klicken Sie mit der rechten Maustaste (Kontextmenü) auf den Layer und exportieren Sie die Auswahl über Daten > Features exportieren… in eine neue Datei, beispielsweise „Biotope_Bach_Auswahl“. Achten Sie darauf, dass Sie in eine Geodatabase (GDB), exportieren. ArcGIS Pro speichert nur die Auswahl. 
+    Klicken Sie mit der rechten Maustaste (Kontextmenü) auf den Layer und exportieren Sie die Auswahl über Daten > Features exportieren… in eine neue Datei, beispielsweise „Biotope_Bach_Auswahl“. Achten Sie darauf, dass Sie in eine Geodatabase (GDB), exportieren. ArcGIS Pro speichert nur die Auswahl. 
 
 ## 4.2 Fläche berechnen
 Die exportierte Datei wird in den Datenrahmen übernommen. 
-Ziel: Erstellen Sie eine neue Spalte/ein Feld und berechnen Sie die Fläche der Features in m². 
+    Ziel: Erstellen Sie eine neue Spalte/ein Feld und berechnen Sie die Fläche der Features in m². 
 Vorüberlegung: Vielleicht haben Sie schon etwas über Datenbanken und Tabellen gehört, über Datentypen usw. Deshalb überlegen Sie, mit welchem Datentyp das neue Feld erstellt wird. 
  
-Öffnen Sie die Tabelle der neuen Datei und klicken Sie bei den Tabellenoptionen (links im Menü der Tabelle) auf „Feld hinzufügen“. 
-Geben Sie einen aussagekräftigen Namen z.B. „Flaeche“ ein und wählen Sie „Double“ als Datentyp (Abbildung 6).
-Schließen Sie das Fenster über das Kreuz und speichern Sie dabei die Eingaben. 
+    Öffnen Sie die Tabelle der neuen Datei und klicken Sie bei den Tabellenoptionen (links im Menü der Tabelle) auf „Feld hinzufügen“. 
+    Geben Sie einen aussagekräftigen Namen z.B. „Flaeche“ ein und wählen Sie „Double“ als Datentyp (Abbildung 6).
+    Schließen Sie das Fenster über das Kreuz und speichern Sie dabei die Eingaben. 
 
  
 Abbildung 6: Anlegen einer neuen Attributspalte.
 
 Das neue Feld bzw. die neue Spalte wird erstellt und die Flächenberechnung kann angewendet werden. GIS bieten die Möglichkeit an, geometrische Eigenschaften auf Grundlage der Vektorgeometrien zu berechnen. Das können einfach Koordinaten sein, aber auch Linienlängen, Umfänge oder Flächeninhalte. Dies wird nun für die Gemeinden durchgeführt.
-In der Attributtabelle klicken Sie im Spaltenkopf von „Flaeche“ mit Rechtsklick auf „Geometrie Berechnen“. Geben Sie folgende Angaben ein (Abbildung 7):
 
-Eingabe-Features: Gemeinden_LKR_Tübingen
-Geometrieattribute: Flaeche (Attributspalte) – Fläche (Eigenschaft)
-Flächeneinheit: Hektar
-Wählen Sie bei Koordinatensystem „aktuelle Karte“
+    In der Attributtabelle klicken Sie im Spaltenkopf von „Flaeche“ mit Rechtsklick auf „Geometrie Berechnen“. Geben Sie folgende Angaben ein (Abbildung 7):
+    - Eingabe-Features: Gemeinden_LKR_Tübingen
+    - Geometrieattribute: Flaeche (Attributspalte) – Fläche (Eigenschaft)
+    - Flächeneinheit: Hektar
+    - Wählen Sie bei Koordinatensystem „aktuelle Karte“
 
  
 Abbildung 7: Eingabemenü für die Geometrieberechnung.
 
-Die Spalte ist jetzt mit den Flächen der einzelnen Features gefüllt. Vergleichen Sie das mit der Spalte „Area“, die schon mal berechnet wurde. 
-Was fällt auf?
+    Die Spalte ist jetzt mit den Flächen der einzelnen Features gefüllt. Vergleichen Sie das mit der Spalte „Area“, die schon mal berechnet wurde. 
+    Was fällt auf?

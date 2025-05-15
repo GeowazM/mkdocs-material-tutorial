@@ -2,7 +2,7 @@
 
 **Modul:** GIS 1
 **Thema:** Datenverwaltung und -organisation in Geographischen Informationssystemen
-**Bearbeitungszeit:** 45 Minuten
+
 
 ---
 
@@ -17,21 +17,21 @@
 
 ### **Aufgabenstellung**
 
-#### **1. Analyse und Reflexion: Datenorganisation (ca. 10 Minuten)**
+#### **1. Analyse und Reflexion: Datenorganisation**
 
 Lesen Sie den Abschnitt **1.1 Grundsätze** zur Datenorganisation.
-Beantworten Sie anschließend die folgenden Fragen schriftlich:
+    Beantworten Sie anschließend die folgenden Fragen schriftlich:
 
-- Welche Vorteile bietet es, Geodaten in einem eigenen Ordner auf einer separaten Festplatte oder Partition zu speichern?
-- Warum sollten Pfade und Dateinamen keine Umlaute, Sonderzeichen oder Leerzeichen enthalten?
-- Welche Risiken entstehen, wenn Daten auf externen Festplatten oder USB-Sticks gespeichert werden?
+    - Welche Vorteile bietet es, Geodaten in einem eigenen Ordner auf einer separaten Festplatte oder Partition zu speichern?
+    - Warum sollten Pfade und Dateinamen keine Umlaute, Sonderzeichen oder Leerzeichen enthalten?
+    - Welche Risiken entstehen, wenn Daten auf externen Festplatten oder USB-Sticks gespeichert werden?
 
 > **Hinweis aus der Lernforschung:**
 > Schreiben Sie Ihre Antworten stichpunktartig und in eigenen Worten auf. Die aktive Verarbeitung und das Paraphrasieren fördern ein tieferes Verständnis und die langfristige Erinnerung (vgl. Effekte des aktiven Lernens).
 
 ---
 
-#### **2. Praktische Übung: Datenverwaltung auf Betriebssystemebene (ca. 15 Minuten)**
+#### **2. Praktische Übung: Datenverwaltung auf Betriebssystemebene**
 
 Sie erhalten mehrere ZIP-Dateien mit Geodaten (z.B. von einer Landesbehörde).
 Führen Sie folgende Schritte durch:
@@ -51,12 +51,12 @@ Benennen Sie die Ordner nach dem Muster:
 
 #### **3. Vergleich: Dateibasierte vs. datenbankbasierte Geodatenformate (ca. 10 Minuten)**
 
-Vergleichen Sie die beiden Geodatenformate **Shapefile (SHP)** und **File-Geodatabase (FGDB)** anhand folgender Kriterien:
+    Vergleichen Sie die beiden Geodatenformate **Shapefile (SHP)** und **File-Geodatabase (FGDB)** anhand folgender Kriterien:
 
-- Anzahl und Organisation der enthaltenen Dateien
-- Möglichkeiten zur Speicherung mehrerer Feature-Classes
-- Unterstützung von Metadaten und Attributen
-- Einschränkungen und Vorteile im praktischen Einsatz
+    - Anzahl und Organisation der enthaltenen Dateien
+    - Möglichkeiten zur Speicherung mehrerer Feature-Classes
+    - Unterstützung von Metadaten und Attributen
+    - Einschränkungen und Vorteile im praktischen Einsatz
 
 Erstellen Sie dazu eine Tabelle nach folgendem Muster:
 
@@ -74,7 +74,7 @@ Erstellen Sie dazu eine Tabelle nach folgendem Muster:
 
 ---
 
-#### **4. Reflexion: Best Practices und Fehlerquellen (ca. 10 Minuten)**
+#### **4. Reflexion: Best Practices und Fehlerquellen**
 
 Reflektieren Sie abschließend:
 
